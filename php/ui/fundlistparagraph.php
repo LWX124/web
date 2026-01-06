@@ -2,11 +2,12 @@
 
 function _getFundPairLink($ref)
 {
+	if ($ref === false) return '未知';
 	static $arSymbol = array();
-	
+
 	$strSymbol = $ref->GetSymbol();
 	if (in_array($strSymbol, $arSymbol))		return $ref->GetDisplay();
-	
+
 	$arSymbol[] = $strSymbol;
 	return $ref->GetMyStockLink();
 }

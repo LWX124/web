@@ -34,29 +34,12 @@ function unicode_to_utf8($unicode_str) {
 
 function GbToUtf8($str)
 {
-    $sql = new GB2312Sql();
-    
-    $strUtf8 = '';
-    $iLen = strlen($str);
-    $i = 0;    
-    while ($i < $iLen)
-    {
-        $strChar = substr($str, $i++, 1);
-        $iChar = ord($strChar);
-//        if ($iChar < 0xA1)
-        if ($iChar < 0x80)
-        {
-            $strUtf8 .= $strChar;
-        }
-        else
-        {
-            $iCharNext = ord(substr($str, $i++, 1));
-            $strGb = sprintf('%02X%02X', $iChar, $iCharNext);
-            $strUnicode = $sql->GetUTF($strGb);
-            $strUtf8 .= unicode_to_utf8($strUnicode);
-        }
+    // 使用 PHP 内置函数转换 GBK 到 UTF-8
+    $result = @mb_convert_encoding($str, 'UTF-8', 'GBK');
+    if ($result === false) {
+        $result = @iconv('GBK', 'UTF-8//IGNORE', $str);
     }
-    return $strUtf8;
+    return $result ? $result : $str;
 }
 
 ?>

@@ -241,6 +241,7 @@ class FundPairReference extends MyPairReference
 
     function GetOfficialDate()
     {
+        if ($this->pair_ref === false) return false;
         $strOfficialDate = $this->pair_ref->GetDate();
         if ($this->cny_ref)
         {
@@ -255,6 +256,7 @@ class FundPairReference extends MyPairReference
     
     public function GetOfficialNetValue()
     {
+        if ($this->pair_ref === false) return false;
         $strOfficialDate = $this->GetOfficialDate();
         $fCny = $this->cny_ref ? $this->cny_ref->GetVal($strOfficialDate) : false;
 		if ($this->pair_ref->IsSinaFutureCN())
@@ -274,6 +276,7 @@ class FundPairReference extends MyPairReference
 
     public function GetFairNetValue()
     {
+        if ($this->pair_ref === false) return false;
         $strOfficialDate = $this->GetOfficialDate();
         if ($this->cny_ref)
         {

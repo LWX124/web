@@ -168,6 +168,7 @@ function StockGetFundFeeRatio($strSymbol)
 
 function RefGetStockDisplay($ref)
 {
+	if ($ref === false) return '未知';
 	$strSymbol = $ref->GetSymbol();
     return SqlGetStockName($strSymbol).'【'.$strSymbol.'】';
 }
