@@ -13,7 +13,7 @@ require_once('internallink.php');
 require_once('_private.php');
 require_once('sql/_sqlcommon.php');
 
-define('DB_DATABASE', 'n5gl0n39mnyn183l_camman');
+define('DB_DATABASE', 'camman');
 
 define('TABLE_MEMBER', 'member');
 define('TABLE_PAGE', 'page');
@@ -144,10 +144,10 @@ function SqlCreateDatabase($strDb)
 	}
 }
 
-function SqlCleanString($str) 
+function SqlCleanString($str)
 {
 	global $g_link;
-	
+
 	$str = UrlCleanString($str);
 	return mysqli_real_escape_string($g_link, $str);
 }
@@ -196,10 +196,10 @@ function SqlConnectDatabase()
 
 	global $g_link;
 
-	$g_link = mysqli_connect('mysql', 'n5gl0n39mnyn183l_woody', DB_PASSWORD);	// Connect to mysql server
+	$g_link = mysqli_connect('localhost', 'root', '');	// Connect to mysql server (local)
 	if (!$g_link)		die('Failed to connect to server');
 
-	mysqli_set_charset($g_link, 'utf8');
+	mysqli_set_charset($g_link, 'utf8mb4');
 	$db = mysqli_select_db($g_link, DB_DATABASE);		// Select database
 	if (!$db) 
 	{

@@ -2,7 +2,7 @@
 
 function _SqlBuildWhere($strKey, $strVal)
 {
-    return ($strVal === false) ? false : "$strKey = '$strVal'";
+    return ($strVal === false || $strVal === null) ? false : "$strKey = '$strVal'";
 }
 
 function _SqlBuildWhere_member($strMemberId)
