@@ -92,14 +92,20 @@ function UrlGetServer()
 		$strServer .= 's';
     }
     $strServer .= '://';
-/*    if ($_SERVER['SERVER_PORT'] != '80')    
+
+    // 优先使用 HTTP_HOST（包含浏览器请求的实际主机名和端口）
+    if (isset($_SERVER['HTTP_HOST']) && !empty($_SERVER['HTTP_HOST']))
+    {
+        $strServer .= $_SERVER['HTTP_HOST'];
+    }
+    else if ($_SERVER['SERVER_PORT'] != '80' && $_SERVER['SERVER_PORT'] != '443')
     {
         $strServer .= $_SERVER['SERVER_NAME'].':'.$_SERVER['SERVER_PORT'];
     }
     else
-    {*/
+    {
         $strServer .= $_SERVER['SERVER_NAME'];
-//    }
+    }
     return $strServer;
 }
 

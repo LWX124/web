@@ -15,8 +15,18 @@ function ImgAutoQuote($strPathName, $strText = '', $bChinese = true)
 {
 	$iDisplayHeight = LayoutGetDisplayHeight();
 	$iFit = LayoutGetDisplayWidth();
-	
-	$imgOrg = imagecreatefromjpeg(UrlModifyRootFileName($strPathName));
+
+	$strRootFileName = UrlModifyRootFileName($strPathName);
+	if (!file_exists($strRootFileName))
+	{
+		return GetImgQuote($strPathName, $strText, $bChinese);
+	}
+
+	$imgOrg = imagecreatefromjpeg($strRootFileName);
+	if ($imgOrg === false)
+	{
+		return GetImgQuote($strPathName, $strText, $bChinese);
+	}
 	$iWidth = imagesx($imgOrg);
 	$iHeight = imagesy($imgOrg);
 //	DebugString($strPathName.':'.strval($iWidth).'x'.strval($iHeight), true);
