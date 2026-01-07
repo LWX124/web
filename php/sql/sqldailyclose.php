@@ -35,12 +35,16 @@ class DailyCloseSql extends KeySql
     
     function GetToDate($strKeyId, $strDate, $iNum = 0)
     {
-    	return $this->GetData($this->BuildWhere_key($strKeyId)." AND date > '$strDate'", $this->BuildOrderBy(), _SqlBuildLimit(0, $iNum));
+    	$strWhere = $this->BuildWhere_key($strKeyId);
+    	$strDateWhere = "date > '$strDate'";
+    	return $this->GetData($strWhere ? "$strWhere AND $strDateWhere" : $strDateWhere, $this->BuildOrderBy(), _SqlBuildLimit(0, $iNum));
     }
     
     function _buildWhereFromDate($strKeyId, $strDate)
     {
-    	return $this->BuildWhere_key($strKeyId)." AND date <= '$strDate'";
+    	$strWhere = $this->BuildWhere_key($strKeyId);
+    	$strDateWhere = "date <= '$strDate'";
+    	return $strWhere ? "$strWhere AND $strDateWhere" : $strDateWhere;
     }
     
     function GetFromDate($strKeyId, $strDate, $iNum = 0)
@@ -55,7 +59,9 @@ class DailyCloseSql extends KeySql
     
     function GetRecordPrev($strKeyId, $strDate)
     {
-    	return $this->GetSingleData($this->BuildWhere_key($strKeyId)." AND date < '$strDate'", $this->BuildOrderBy());
+    	$strWhere = $this->BuildWhere_key($strKeyId);
+    	$strDateWhere = "date < '$strDate'";
+    	return $this->GetSingleData($strWhere ? "$strWhere AND $strDateWhere" : $strDateWhere, $this->BuildOrderBy());
     }
     
     function BuildWhere_key_date($strKeyId, $strDate)
