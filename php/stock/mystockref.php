@@ -145,6 +145,8 @@ class MyStockReference extends MysqlReference
 		
     	$tick_sql = new StockTickSql();
     	$strStockId = SqlGetStockId($strSymbol);
+    	if ($strStockId === false)		return;
+
     	$iTick = $tick_sql->ReadInt($strStockId);
     	if (($iTick === false) || (abs($iCurTick - $iCloseTick) < abs($iTick - $iCloseTick)))
     	{

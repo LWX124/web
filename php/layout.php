@@ -33,11 +33,23 @@ function LayoutIsMobilePhone()
 
 function ResizeJpg($strPathName, $iNewWidth = 300, $iNewHeight = false)
 {
+	$strOrgRootName = UrlModifyRootFileName($strPathName);
+	if (!file_exists($strOrgRootName))
+	{
+		DebugString('Image not found: '.$strOrgRootName);
+		return $strPathName;  // 返回原始路径，让浏览器显示404
+	}
+
 	$strNewName = substr($strPathName, 0, strlen($strPathName) - 4).'x'.strval($iNewWidth).'__'.substr($strPathName, -4, 4);
-	$strNewRootName = UrlModifyRootFileName($strNewName); 
+	$strNewRootName = UrlModifyRootFileName($strNewName);
 	if (!file_exists($strNewRootName))
 	{
-		$imgOrg = imagecreatefromjpeg(UrlModifyRootFileName($strPathName));
+		$imgOrg = imagecreatefromjpeg($strOrgRootName);
+		if ($imgOrg === false)
+		{
+			DebugString('Failed to load image: '.$strOrgRootName);
+			return $strPathName;
+		}
 		$iWidth = imagesx($imgOrg);
 		$iHeight = imagesy($imgOrg);
 		DebugString('Converting '.$strNewName);
