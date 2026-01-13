@@ -1,0 +1,43 @@
+# 数据同步定时任务配置
+# 安装方法: crontab /Users/weixi1/Documents/workspace/web/debug/crontab.txt
+# 查看当前: crontab -l
+# 编辑: crontab -e
+
+SHELL=/bin/bash
+PATH=/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin
+
+# 工作目录
+SYNC_DIR=/Users/weixi1/Documents/workspace/web/debug
+
+# ============================================================
+# 交易日数据同步 (周一至周五)
+# ============================================================
+
+# 基金估值 - 每天 15:30 (基金收盘后)
+30 15 * * 1-5 $SYNC_DIR/cron_sync.sh fundest >> $SYNC_DIR/logs/cron.log 2>&1
+
+# 校准数据 - 每天 16:00 (收盘后更新)
+0 16 * * 1-5 $SYNC_DIR/cron_sync.sh calibration >> $SYNC_DIR/logs/cron.log 2>&1
+
+# 净值数据 - 每天 20:00 (基金净值通常晚间公布)
+0 20 * * 1-5 $SYNC_DIR/cron_sync.sh netvalue >> $SYNC_DIR/logs/cron.log 2>&1
+
+# 期货数据 - 每天 17:00 (日盘收盘后)
+0 17 * * 1-5 $SYNC_DIR/cron_sync.sh future >> $SYNC_DIR/logs/cron.log 2>&1
+
+# 股票历史 - 每天 22:00 (美股开盘前同步历史)
+0 22 * * 1-5 $SYNC_DIR/cron_sync.sh stock >> $SYNC_DIR/logs/cron.log 2>&1
+
+# ============================================================
+# 周末全量同步
+# ============================================================
+
+# 每周六凌晨 3:00 全量同步
+0 3 * * 6 $SYNC_DIR/cron_sync.sh all >> $SYNC_DIR/logs/cron.log 2>&1
+
+# ============================================================
+# 日志清理
+# ============================================================
+
+# 每月 1 日清理 30 天前的日志
+0 4 1 * * find $SYNC_DIR/logs -name "*.log" -mtime +30 -delete 2>/dev/null
