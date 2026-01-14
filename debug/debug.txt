@@ -1,0 +1,724 @@
+17:48:08 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+17:48:08 127.0.0.1 /woody/res/sz161226cn.php 新增:SZ161226-������������
+17:49:33 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (2)
+17:49:33 127.0.0.1 /woody/res/sz161226cn.php 新增:SZ161226-������������
+17:49:34 127.0.0.1 /woody/res/sz161226cn.php 新增:SZ161226-������������
+17:50:11 127.0.0.1 /woody/res/sz161226cn.php 新增:SZ161226-????????????
+17:50:11 127.0.0.1 /woody/res/sz161226cn.php 新增:hf_SI-????????????
+17:50:11 127.0.0.1 /woody/res/sz161226cn.php 新增:fx_susdcnh-???????????????????????????
+17:50:12 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (3)
+17:50:12 127.0.0.1 /woody/res/sz161226cn.php SzseGetLofShares: 313889.06
+17:52:08 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+17:54:03 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+17:56:28 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+17:57:53 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (2)
+17:59:16 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (3)
+17:59:16 127.0.0.1 /woody/res/sz161226cn.php 新增:SZ161226-白银基金
+17:59:16 127.0.0.1 /woody/res/sz161226cn.php 新增:hf_SI-纽约白银
+17:59:16 127.0.0.1 /woody/res/sz161226cn.php 新增:fx_susdcnh-离岸人民币（香港）
+17:59:16 127.0.0.1 /woody/res/sz161226cn.php 调试消息 Short Meta Description Warning
+Length=46
+用未知估算白银基金【SZ161226】净值，同时测算无风险套利的国内期货市场对冲比例等数据。
+位于/Users/weixi1/Documents/workspace/web/php/ui/plaintext.php第9行 (4)
+18:02:45 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+18:02:45 127.0.0.1 /woody/res/sz161226cn.php 调试消息 Short Meta Description Warning
+Length=46
+用未知估算白银基金【SZ161226】净值，同时测算无风险套利的国内期货市场对冲比例等数据。
+位于/Users/weixi1/Documents/workspace/web/php/ui/plaintext.php第9行 (2)
+18:03:22 127.0.0.1 /woody/res/sz161226cn.php INIFile error: This file does not exist: /Users/weixi1/Documents/workspace/web/debug/config/sz161226.txt!
+
+18:03:22 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [2] imagecreatefromjpeg(/Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg): Failed to open stream: No such file or directory
+位于/Users/weixi1/Documents/workspace/web/php/layout.php第40行 (3)
+18:06:06 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+18:06:20 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [2] imagecreatefromjpeg(/Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg): Failed to open stream: No such file or directory
+位于/Users/weixi1/Documents/workspace/web/php/layout.php第40行 (2)
+18:07:31 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (3)
+18:08:34 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (4)
+18:08:34 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [2] imagecreatefromjpeg(/Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg): Failed to open stream: No such file or directory
+位于/Users/weixi1/Documents/workspace/web/php/layout.php第40行 (5)
+18:10:27 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+18:12:49 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+18:13:51 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (2)
+18:15:15 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (3)
+18:15:15 127.0.0.1 /woody/res/sz161226cn.php INIFile error: This file does not exist: /Users/weixi1/Documents/workspace/web/debug/config/hf_si.txt!
+
+18:16:10 127.0.0.1 /woody/res/sz161226cn.php INIFile error: This file does not exist: /Users/weixi1/Documents/workspace/web/debug/config/hf_si.txt!
+
+18:16:22 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (4)
+18:16:22 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [2] imagecreatefromjpeg(/Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg): Failed to open stream: No such file or directory
+位于/Users/weixi1/Documents/workspace/web/php/layout.php第40行 (5)
+18:24:41 127.0.0.1 /woody/res/calibrationhistorycn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+18:24:41 127.0.0.1 /woody/res/calibrationhistorycn.php PHP错误: [2] imagecreatefromjpeg(/Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg): Failed to open stream: No such file or directory
+位于/Users/weixi1/Documents/workspace/web/php/layout.php第40行 (2)
+18:24:46 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (3)
+18:25:45 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (4)
+18:26:15 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (5)
+18:33:46 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+18:37:00 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+18:37:00 127.0.0.1 /woody/res/sz161226cn.php INIFile error: This file does not exist: /Users/weixi1/Documents/workspace/web/debug/config/nf_ag0.txt!
+
+18:40:22 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+19:17:40 127.0.0.1 /woody/res/chinafuturecn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+19:17:43 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (2)
+19:18:53 127.0.0.1 /woody/res/chinafuturecn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (3)
+19:19:02 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (4)
+19:19:02 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [2] imagecreatefromjpeg(/Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg): Failed to open stream: No such file or directory
+位于/Users/weixi1/Documents/workspace/web/php/layout.php第40行 (5)
+15:02:14 127.0.0.1 /woody/res/chinafuturecn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+15:02:14 127.0.0.1 /woody/res/chinafuturecn.php 调试消息 Net value estimation error SH518800净值记录 实际值9.4661 估值1000.658 误差:10470.96%
+位于/Users/weixi1/Documents/workspace/web/php/stock.php第140行 (2)
+15:10:41 127.0.0.1 /woody/res/chinafuturecn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+15:10:41 127.0.0.1 /woody/res/chinafuturecn.php PHP错误: [8192] substr(): Passing null to parameter #1 ($string) of type string is deprecated
+位于/Users/weixi1/Documents/workspace/web/php/debug.php第108行 (2)
+15:10:41 127.0.0.1 /woody/res/chinafuturecn.php PHP错误: [8192] substr(): Passing null to parameter #1 ($string) of type string is deprecated
+位于/Users/weixi1/Documents/workspace/web/php/debug.php第108行 (3)
+15:10:41 127.0.0.1 /woody/res/chinafuturecn.php PHP错误: [8192] substr(): Passing null to parameter #1 ($string) of type string is deprecated
+位于/Users/weixi1/Documents/workspace/web/php/debug.php第108行 (4)
+15:10:54 127.0.0.1 /woody/res/qdiicn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (5)
+15:10:54 127.0.0.1 /woody/res/qdiicn.php 新增:SH501300-美元债LOF
+15:10:54 127.0.0.1 /woody/res/qdiicn.php 新增:SH513290-纳指生物科技ETF
+15:10:54 127.0.0.1 /woody/res/qdiicn.php 新增:SH513400-道琼斯ETF
+15:24:28 127.0.0.1 /woody/res/qdiimixcn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+15:24:28 127.0.0.1 /woody/res/qdiimixcn.php 新增:SH501225-全球芯片LOF
+15:24:28 127.0.0.1 /woody/res/qdiimixcn.php 新增:SH501312-海外科技LOF
+15:24:28 127.0.0.1 /woody/res/qdiimixcn.php 新增:SH513360-教育ETF
+15:24:28 127.0.0.1 /woody/res/qdiimixcn.php 新增:SZ159509-纳指科技
+15:24:28 127.0.0.1 /woody/res/qdiimixcn.php 新增:SZ159529-标普消费
+15:24:28 127.0.0.1 /woody/res/qdiimixcn.php 新增:SZ160216-国泰商品
+15:24:28 127.0.0.1 /woody/res/qdiimixcn.php 新增:SZ160644-互联网QD
+15:24:28 127.0.0.1 /woody/res/qdiimixcn.php 新增:SZ160719-嘉实黄金
+15:24:28 127.0.0.1 /woody/res/qdiimixcn.php 新增:SZ161116-易基黄金
+15:24:28 127.0.0.1 /woody/res/qdiimixcn.php 新增:SZ164701-黄金LOF
+15:24:28 127.0.0.1 /woody/res/qdiimixcn.php 新增:SZ165513-信诚商品
+15:24:28 127.0.0.1 /woody/res/qdiimixcn.php 新增:SH501018-南方原油LOF
+15:24:28 127.0.0.1 /woody/res/qdiimixcn.php 新增:SZ160723-嘉实原油
+15:24:28 127.0.0.1 /woody/res/qdiimixcn.php 新增:SZ161129-原油基金
+15:24:28 127.0.0.1 /woody/res/qdiimixcn.php 新增:SH513050-中概互联网ETF易方达
+15:24:28 127.0.0.1 /woody/res/qdiimixcn.php 新增:SH513220-中概互联ETF
+15:24:29 127.0.0.1 /woody/res/qdiimixcn.php 新增:SZ159605-互联中概
+15:24:29 127.0.0.1 /woody/res/qdiimixcn.php 新增:SZ159607-中概互联
+15:24:29 127.0.0.1 /woody/res/qdiimixcn.php 新增:SH513090-香港证券ETF易方达
+15:24:29 127.0.0.1 /woody/res/qdiimixcn.php 新增:SH513230-港股消费ETF
+15:24:29 127.0.0.1 /woody/res/qdiimixcn.php 新增:SH513750-港股通非银ETF
+15:24:29 127.0.0.1 /woody/res/qdiimixcn.php 新增:SH513990-港股通ETF
+15:24:29 127.0.0.1 /woody/res/qdiimixcn.php 新增:SZ159567-HK创新药
+15:24:29 127.0.0.1 /woody/res/qdiimixcn.php 新增:SZ159570-创新药HK
+15:24:29 127.0.0.1 /woody/res/qdiimixcn.php 新增:SZ159615-生科ETF
+15:24:29 127.0.0.1 /woody/res/qdiimixcn.php 新增:SZ159751-港科技
+15:24:29 127.0.0.1 /woody/res/qdiimixcn.php 新增:SZ159792-互联网
+15:24:29 127.0.0.1 /woody/res/qdiimixcn.php 新增:SH513850-美国50ETF易方达
+15:24:29 127.0.0.1 /woody/res/qdiimixcn.php 新增:SZ159577-美国50
+15:24:29 127.0.0.1 /woody/res/qdiimixcn.php PHP错误: [2] imagecreatefromjpeg(/Users/weixi1/Documents/workspace/web/woody/blog/photo/rulai.jpg): Failed to open stream: No such file or directory
+位于/Users/weixi1/Documents/workspace/web/php/ui/imagedisp.php第19行 (2)
+15:24:33 127.0.0.1 /woody/res/qdiicn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (3)
+15:24:33 127.0.0.1 /woody/res/qdiicn.php 新增:AGG-iShares美国债券综合指数ETF
+15:24:33 127.0.0.1 /woody/res/qdiicn.php 新增:fx_susdcny-在岸人民币
+15:24:33 127.0.0.1 /woody/res/qdiicn.php 新增:IBB-生物科技指数ETF-iShares Nasdaq
+15:24:33 127.0.0.1 /woody/res/qdiicn.php 新增:SZ160140-美国REIT
+15:24:33 127.0.0.1 /woody/res/qdiicn.php 新增:SZ161126-标普医药
+15:24:33 127.0.0.1 /woody/res/qdiicn.php 新增:SZ161128-标普科技
+15:24:33 127.0.0.1 /woody/res/qdiicn.php 新增:SZ162415-美国消费
+15:24:33 127.0.0.1 /woody/res/qdiicn.php 新增:SZ164824-印度基金
+15:24:35 127.0.0.1 /woody/res/qdiicn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (4)
+15:24:35 127.0.0.1 /woody/res/qdiicn.php 新增:VNQ-不动产信托指数ETF-Vanguard
+15:24:35 127.0.0.1 /woody/res/qdiicn.php 新增:RSPH-RSPH
+15:24:35 127.0.0.1 /woody/res/qdiicn.php 新增:XLK-SPDR科技ETF
+15:24:35 127.0.0.1 /woody/res/qdiicn.php 新增:XLY-SPDR可选消费品ETF
+15:24:35 127.0.0.1 /woody/res/qdiicn.php 新增:SZ164906-中国互联
+15:24:35 127.0.0.1 /woody/res/qdiicn.php 新增:SZ159502-标普生科
+15:24:35 127.0.0.1 /woody/res/qdiicn.php 新增:SZ161127-标普生物
+15:24:35 127.0.0.1 /woody/res/qdiicn.php 新增:SH513350-标普油气ETF
+15:24:35 127.0.0.1 /woody/res/qdiicn.php 新增:SZ159518-标普油气
+15:24:35 127.0.0.1 /woody/res/qdiicn.php 新增:SZ162411-华宝油气
+15:24:35 127.0.0.1 /woody/res/qdiicn.php 新增:SZ160416-石油基金
+15:24:35 127.0.0.1 /woody/res/qdiicn.php 新增:SZ162719-广发石油
+15:24:35 127.0.0.1 /woody/res/qdiicn.php 新增:SZ163208-诺安油气
+15:24:35 127.0.0.1 /woody/res/qdiicn.php 新增:SZ161815-银华通胀
+15:24:35 127.0.0.1 /woody/res/qdiicn.php 新增:SH513100-纳指ETF
+15:24:45 127.0.0.1 /woody/res/qdiimixcn.php PHP错误: [2] imagecreatefromjpeg(/Users/weixi1/Documents/workspace/web/woody/blog/photo/rulai.jpg): Failed to open stream: No such file or directory
+位于/Users/weixi1/Documents/workspace/web/php/ui/imagedisp.php第19行 (5)
+15:24:46 127.0.0.1 /woody/res/qdiihkcn.php 新增:SH501025-香港银行LOF
+15:24:46 127.0.0.1 /woody/res/qdiihkcn.php 新增:SZ161124-香港小盘
+15:24:46 127.0.0.1 /woody/res/qdiihkcn.php 新增:SH513010-恒生科技ETF易方达
+15:24:46 127.0.0.1 /woody/res/qdiihkcn.php 新增:SH513130-恒生科技ETF
+15:24:46 127.0.0.1 /woody/res/qdiihkcn.php 新增:SH513180-恒生科技指数ETF
+15:24:46 127.0.0.1 /woody/res/qdiihkcn.php 新增:SH513260-恒生科技ETF基金
+15:24:46 127.0.0.1 /woody/res/qdiihkcn.php 新增:SH513380-恒生科技ETF广发
+15:24:46 127.0.0.1 /woody/res/qdiihkcn.php 新增:SH513580-恒生科技ETF指数
+15:24:46 127.0.0.1 /woody/res/qdiihkcn.php 新增:SH513890-恒生科技HKETF
+15:24:46 127.0.0.1 /woody/res/qdiihkcn.php 新增:SH520570-恒生科技ETF南方
+15:24:46 127.0.0.1 /woody/res/qdiihkcn.php 新增:SH520590-恒生科技ETF鹏华
+15:24:46 127.0.0.1 /woody/res/qdiihkcn.php 新增:SH520920-恒生科技ETF天弘
+15:24:46 127.0.0.1 /woody/res/qdiihkcn.php 新增:SZ159740-恒生科技
+15:24:46 127.0.0.1 /woody/res/qdiihkcn.php 新增:SZ159741-港股科技
+15:24:46 127.0.0.1 /woody/res/qdiihkcn.php 新增:SZ159742-恒指科技
+15:24:46 127.0.0.1 /woody/res/qdiihkcn.php 新增:SH510900-恒生中国企业ETF易方达
+15:24:46 127.0.0.1 /woody/res/qdiihkcn.php 新增:SZ159850-H股50
+15:24:46 127.0.0.1 /woody/res/qdiihkcn.php 新增:SZ159954-H股ETF
+15:24:46 127.0.0.1 /woody/res/qdiihkcn.php 新增:SZ159960-恒生国企
+15:24:46 127.0.0.1 /woody/res/qdiihkcn.php 新增:SZ160717-恒生H股
+15:24:46 127.0.0.1 /woody/res/qdiihkcn.php 新增:SZ161831-恒生中企
+15:24:46 127.0.0.1 /woody/res/qdiihkcn.php 新增:SH501302-恒生指数基金LOF
+15:24:46 127.0.0.1 /woody/res/qdiihkcn.php 新增:SH513210-恒生ETF易方达
+15:24:46 127.0.0.1 /woody/res/qdiihkcn.php 新增:SH513600-恒生指数ETF
+15:24:46 127.0.0.1 /woody/res/qdiihkcn.php 新增:SH513660-恒生ETF
+15:24:46 127.0.0.1 /woody/res/qdiihkcn.php 新增:SZ159312-恒指基金
+15:24:46 127.0.0.1 /woody/res/qdiihkcn.php 新增:SZ159920-恒生ETF
+15:24:46 127.0.0.1 /woody/res/qdiihkcn.php 新增:SZ160924-恒指LOF
+15:24:46 127.0.0.1 /woody/res/qdiihkcn.php 新增:SZ164705-添富恒生
+15:24:48 127.0.0.1 /woody/res/qdiijpcn.php 新增:SH513800-日本东证指数ETF
+15:24:48 127.0.0.1 /woody/res/qdiijpcn.php 新增:JPCNY-
+15:24:48 127.0.0.1 /woody/res/qdiijpcn.php 新增:SH513000-日经225ETF易方达
+15:24:48 127.0.0.1 /woody/res/qdiijpcn.php 新增:SH513520-日经ETF
+15:24:48 127.0.0.1 /woody/res/qdiijpcn.php 新增:SH513880-日经225ETF
+15:24:48 127.0.0.1 /woody/res/qdiijpcn.php 新增:SZ159866-日经ETF
+15:24:49 127.0.0.1 /woody/res/qdiieucn.php 新增:SH513080-法国CAC40ETF
+15:24:49 127.0.0.1 /woody/res/qdiieucn.php 新增:EUCNY-
+15:24:49 127.0.0.1 /woody/res/qdiieucn.php 新增:SH513030-德国ETF
+15:24:49 127.0.0.1 /woody/res/qdiieucn.php 新增:SZ159561-德国ETF
+15:24:53 127.0.0.1 /woody/res/qdiijpcn.php 新增:znb_TPX-东证一部股价指数
+15:24:53 127.0.0.1 /woody/res/qdiijpcn.php 新增:fx_sjpycny-日元兑人民币
+15:24:53 127.0.0.1 /woody/res/qdiijpcn.php 新增:znb_NKY-日经225
+15:25:10 127.0.0.1 /woody/res/qdiihkcn.php 新增:SH000869-HK银行
+15:25:10 127.0.0.1 /woody/res/qdiihkcn.php 新增:fx_shkdcny-港元兑人民币
+15:25:10 127.0.0.1 /woody/res/qdiihkcn.php 新增:^HSI-恒生指数
+15:25:10 127.0.0.1 /woody/res/qdiihkcn.php 新增:^HSTECH-恒生科技指数
+15:25:10 127.0.0.1 /woody/res/qdiihkcn.php 新增:^HSCE-恒生中国企业指数
+15:41:58 127.0.0.1 /woody/res/chinafuturecn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+15:41:58 127.0.0.1 /woody/res/chinafuturecn.php PHP错误: [8192] substr(): Passing null to parameter #1 ($string) of type string is deprecated
+位于/Users/weixi1/Documents/workspace/web/php/debug.php第108行 (2)
+15:41:58 127.0.0.1 /woody/res/chinafuturecn.php PHP错误: [8192] substr(): Passing null to parameter #1 ($string) of type string is deprecated
+位于/Users/weixi1/Documents/workspace/web/php/debug.php第108行 (3)
+15:41:58 127.0.0.1 /woody/res/chinafuturecn.php PHP错误: [8192] substr(): Passing null to parameter #1 ($string) of type string is deprecated
+位于/Users/weixi1/Documents/workspace/web/php/debug.php第108行 (4)
+15:42:00 127.0.0.1 /woody/res/qdiicn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (5)
+15:42:01 127.0.0.1 /woody/res/qdiicn.php 新增:KWEB-中概网络股ETF
+15:42:01 127.0.0.1 /woody/res/qdiicn.php 新增:XBI-生物科技股ETF
+15:42:01 127.0.0.1 /woody/res/qdiicn.php 新增:XOP-油气开采指数ETF-SPDR S&P
+15:42:01 127.0.0.1 /woody/res/qdiicn.php 新增:IXC-全球能源股ETF
+15:42:01 127.0.0.1 /woody/res/qdiicn.php 新增:IEO-iShares 美国油气勘探与生产 ETF
+15:42:01 127.0.0.1 /woody/res/qdiicn.php 新增:XLE-SPDR能源ETF
+15:42:01 127.0.0.1 /woody/res/qdiicn.php 新增:GSG-大宗商品ETF
+15:42:01 127.0.0.1 /woody/res/qdiicn.php 新增:SH513110-纳斯达克100ETF
+15:42:01 127.0.0.1 /woody/res/qdiicn.php 新增:SH513300-纳斯达克ETF
+15:42:01 127.0.0.1 /woody/res/qdiicn.php 新增:SH513390-纳指100ETF
+15:42:01 127.0.0.1 /woody/res/qdiicn.php 新增:SH513870-纳指ETF富国
+15:42:01 127.0.0.1 /woody/res/qdiicn.php 新增:SZ159501-纳指基金
+15:42:01 127.0.0.1 /woody/res/qdiicn.php 新增:SZ159513-纳指大成
+15:42:01 127.0.0.1 /woody/res/qdiicn.php 新增:SZ159632-纳斯达克
+15:42:01 127.0.0.1 /woody/res/qdiicn.php 新增:SZ159659-纳指
+15:42:01 127.0.0.1 /woody/res/qdiicn.php 新增:SZ159660-纳指100
+15:42:01 127.0.0.1 /woody/res/qdiicn.php 新增:SZ159696-纳100ETF
+15:42:01 127.0.0.1 /woody/res/qdiicn.php 新增:SZ159941-纳指ETF
+15:42:01 127.0.0.1 /woody/res/qdiicn.php 新增:SZ161130-纳指LOF
+15:42:01 127.0.0.1 /woody/res/qdiicn.php 新增:SH513500-标普500ETF
+15:44:46 127.0.0.1 /woody/res/qdiicn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+15:44:46 127.0.0.1 /woody/res/qdiicn.php 新增:SH513650-标普500ETF南方
+15:44:46 127.0.0.1 /woody/res/qdiicn.php 新增:SZ159612-国泰标普
+15:44:46 127.0.0.1 /woody/res/qdiicn.php 新增:SZ159655-标普ETF
+15:44:46 127.0.0.1 /woody/res/qdiicn.php 新增:SZ161125-标普500
+15:53:59 127.0.0.1 /woody/res/qdiicn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+16:01:19 127.0.0.1 /account/login.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+16:01:19 127.0.0.1 /woody/res/lofcn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+16:01:20 127.0.0.1 /woody/res/lofcn.php PHP错误: [2] imagecreatefromjpeg(/Users/weixi1/Documents/workspace/web/woody/blog/photo/freefood.jpg): Failed to open stream: No such file or directory
+位于/Users/weixi1/Documents/workspace/web/php/ui/imagedisp.php第19行 (2)
+16:01:20 127.0.0.1 /woody/res/biotechcn.php PHP错误: [2] imagecreatefromjpeg(/Users/weixi1/Documents/workspace/web/woody/blog/photo/linqingxia.jpg): Failed to open stream: No such file or directory
+位于/Users/weixi1/Documents/workspace/web/php/ui/imagedisp.php第19行 (3)
+16:01:20 127.0.0.1 /woody/res/chinaindexcn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (4)
+16:01:20 127.0.0.1 /woody/res/chinaindexcn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+16:02:00 127.0.0.1 /woody/res/lofcn.php PHP错误: [2] imagecreatefromjpeg(/Users/weixi1/Documents/workspace/web/woody/blog/photo/freefood.jpg): Failed to open stream: No such file or directory
+位于/Users/weixi1/Documents/workspace/web/php/ui/imagedisp.php第19行 (5)
+16:03:12 127.0.0.1 /woody/res/biotechcn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+16:03:33 127.0.0.1 /woody/res/qdiihkcn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+16:03:33 127.0.0.1 /woody/res/qdiijpcn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+16:03:34 127.0.0.1 /woody/res/qdiieucn.php 新增:znb_CAC-法国CAC40
+16:03:34 127.0.0.1 /woody/res/qdiieucn.php 新增:fx_seurcny-欧元兑人民币即期汇率
+16:03:34 127.0.0.1 /woody/res/qdiieucn.php 新增:znb_DAX-德国DAX30
+16:03:34 127.0.0.1 /woody/res/qdiieucn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+16:03:34 127.0.0.1 /woody/res/hsharescn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+16:03:37 127.0.0.1 /woody/res/spyfundcn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+16:05:34 127.0.0.1 /account/benfordslaw.php PHP错误: [2] imagettfbbox(): Could not find/open font
+位于/Users/weixi1/Documents/workspace/web/php/imagefile.php第86行 (1)
+16:05:34 127.0.0.1 /account/benfordslaw.php PHP错误: [2] Trying to access array offset on false
+位于/Users/weixi1/Documents/workspace/web/php/imagefile.php第87行 (2)
+16:05:34 127.0.0.1 /account/benfordslaw.php PHP错误: [2] Trying to access array offset on false
+位于/Users/weixi1/Documents/workspace/web/php/imagefile.php第87行 (3)
+16:05:34 127.0.0.1 /account/benfordslaw.php PHP错误: [2] Trying to access array offset on false
+位于/Users/weixi1/Documents/workspace/web/php/imagefile.php第89行 (4)
+16:05:34 127.0.0.1 /account/benfordslaw.php PHP错误: [2] Trying to access array offset on false
+位于/Users/weixi1/Documents/workspace/web/php/imagefile.php第89行 (5)
+16:40:08 127.0.0.1 /woody/res/qdiimixcn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+16:40:12 127.0.0.1 /woody/res/qdiihkcn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (2)
+16:40:12 127.0.0.1 /woody/res/qdiihkcn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+16:40:20 127.0.0.1 /woody/res/chinaindexcn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (3)
+16:40:29 127.0.0.1 /woody/res/chinafuturecn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (4)
+16:40:29 127.0.0.1 /woody/res/chinafuturecn.php PHP错误: [8192] substr(): Passing null to parameter #1 ($string) of type string is deprecated
+位于/Users/weixi1/Documents/workspace/web/php/debug.php第108行 (5)
+16:42:19 127.0.0.1 /woody/res/sz161226cn.php SzseGetLofShares: 316027.46
+16:43:21 127.0.0.1 /woody/res/chinafuturecn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+16:47:04 127.0.0.1 /woody/res/chinafuturecn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+16:47:04 127.0.0.1 /woody/res/chinafuturecn.php PHP错误: [8192] substr(): Passing null to parameter #1 ($string) of type string is deprecated
+位于/Users/weixi1/Documents/workspace/web/php/debug.php第108行 (2)
+16:47:04 127.0.0.1 /woody/res/chinafuturecn.php PHP错误: [8192] substr(): Passing null to parameter #1 ($string) of type string is deprecated
+位于/Users/weixi1/Documents/workspace/web/php/debug.php第108行 (3)
+16:47:04 127.0.0.1 /woody/res/chinafuturecn.php PHP错误: [8192] substr(): Passing null to parameter #1 ($string) of type string is deprecated
+位于/Users/weixi1/Documents/workspace/web/php/debug.php第108行 (4)
+16:47:04 127.0.0.1 /woody/res/chinafuturecn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+16:48:31 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (5)
+16:48:31 127.0.0.1 /woody/res/sz161226cn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+16:48:55 127.0.0.1 /woody/res/chinafuturecn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+16:56:30 127.0.0.1 /woody/res/chinafuturecn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+16:56:30 127.0.0.1 /woody/res/chinafuturecn.php PHP错误: [8192] substr(): Passing null to parameter #1 ($string) of type string is deprecated
+位于/Users/weixi1/Documents/workspace/web/php/debug.php第108行 (2)
+16:56:30 127.0.0.1 /woody/res/chinafuturecn.php PHP错误: [8192] substr(): Passing null to parameter #1 ($string) of type string is deprecated
+位于/Users/weixi1/Documents/workspace/web/php/debug.php第108行 (3)
+16:56:30 127.0.0.1 /woody/res/chinafuturecn.php PHP错误: [8192] substr(): Passing null to parameter #1 ($string) of type string is deprecated
+位于/Users/weixi1/Documents/workspace/web/php/debug.php第108行 (4)
+16:57:20 127.0.0.1 /woody/res/chinafuturecn.php PHP错误: [8192] substr(): Passing null to parameter #1 ($string) of type string is deprecated
+位于/Users/weixi1/Documents/workspace/web/php/debug.php第108行 (5)
+16:57:20 127.0.0.1 /woody/res/chinafuturecn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+16:57:29 127.0.0.1 /woody/res/sz159985cn.php INIFile error: This file does not exist: /Users/weixi1/Documents/workspace/web/debug/config/nf_m0.txt!
+
+16:57:45 127.0.0.1 /woody/res/sz159937cn.php INIFile error: This file does not exist: /Users/weixi1/Documents/workspace/web/debug/config/au0.txt!
+
+16:57:47 127.0.0.1 /woody/res/sz159934cn.php INIFile error: This file does not exist: /Users/weixi1/Documents/workspace/web/debug/config/au0.txt!
+
+16:57:48 127.0.0.1 /woody/res/sh518880cn.php INIFile error: This file does not exist: /Users/weixi1/Documents/workspace/web/debug/config/au0.txt!
+
+16:57:49 127.0.0.1 /woody/res/sh518800cn.php INIFile error: This file does not exist: /Users/weixi1/Documents/workspace/web/debug/config/nf_au0.txt!
+
+18:08:12 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+18:08:46 127.0.0.1 /woody/res/fundlistcn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (2)
+18:09:18 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (3)
+18:09:21 127.0.0.1 /woody/res/chinafuturecn.php PHP错误: [8192] substr(): Passing null to parameter #1 ($string) of type string is deprecated
+位于/Users/weixi1/Documents/workspace/web/php/debug.php第108行 (4)
+18:09:21 127.0.0.1 /woody/res/chinafuturecn.php PHP错误: [8192] substr(): Passing null to parameter #1 ($string) of type string is deprecated
+位于/Users/weixi1/Documents/workspace/web/php/debug.php第108行 (5)
+18:09:21 127.0.0.1 /woody/res/chinafuturecn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+18:09:52 127.0.0.1 /woody/res/sz161226cn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+18:13:15 127.0.0.1 /woody/res/fundlistcn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+18:13:32 127.0.0.1 /woody/res/sz159919cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (2)
+18:13:32 127.0.0.1 /woody/res/sz159919cn.php 新增:hf_CHA50CFD-富时中国A50期货
+18:13:32 127.0.0.1 /woody/res/sz159919cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (3)
+18:13:32 127.0.0.1 /woody/res/sz159919cn.php /Users/weixi1/Documents/workspace/web/debug/chinamoney/json.txt: Save new file
+18:13:32 127.0.0.1 /woody/res/sz159919cn.php USD/CNY 7.0187
+18:13:32 127.0.0.1 /woody/res/sz159919cn.php Insert USCNY
+18:13:32 127.0.0.1 /woody/res/sz159919cn.php EUR/CNY 8.1822
+18:13:32 127.0.0.1 /woody/res/sz159919cn.php Insert EUCNY
+18:13:32 127.0.0.1 /woody/res/sz159919cn.php 100JPY/CNY 4.4662
+18:13:32 127.0.0.1 /woody/res/sz159919cn.php Insert JPCNY
+18:13:32 127.0.0.1 /woody/res/sz159919cn.php HKD/CNY 0.90131
+18:13:32 127.0.0.1 /woody/res/sz159919cn.php Insert HKCNY
+18:13:32 127.0.0.1 /woody/res/sz159919cn.php GBP/CNY 9.4470
+18:13:32 127.0.0.1 /woody/res/sz159919cn.php AUD/CNY 4.7110
+18:13:32 127.0.0.1 /woody/res/sz159919cn.php NZD/CNY 4.0423
+18:13:32 127.0.0.1 /woody/res/sz159919cn.php SGD/CNY 5.4652
+18:13:32 127.0.0.1 /woody/res/sz159919cn.php CHF/CNY 8.7953
+18:13:32 127.0.0.1 /woody/res/sz159919cn.php CAD/CNY 5.0637
+18:13:32 127.0.0.1 /woody/res/sz159919cn.php CNY/MOP 1.1433
+18:13:32 127.0.0.1 /woody/res/sz159919cn.php CNY/MYR 0.57775
+18:13:32 127.0.0.1 /woody/res/sz159919cn.php CNY/RUB 11.5387
+18:13:32 127.0.0.1 /woody/res/sz159919cn.php CNY/ZAR 2.3379
+18:13:32 127.0.0.1 /woody/res/sz159919cn.php CNY/KRW 207.18
+18:13:32 127.0.0.1 /woody/res/sz159919cn.php CNY/AED 0.52512
+18:13:32 127.0.0.1 /woody/res/sz159919cn.php CNY/SAR 0.53614
+18:13:32 127.0.0.1 /woody/res/sz159919cn.php CNY/HUF 47.0311
+18:13:32 127.0.0.1 /woody/res/sz159919cn.php CNY/PLN 0.51459
+18:13:32 127.0.0.1 /woody/res/sz159919cn.php CNY/DKK 0.9137
+18:13:32 127.0.0.1 /woody/res/sz159919cn.php CNY/SEK 1.3149
+18:13:32 127.0.0.1 /woody/res/sz159919cn.php CNY/NOK 1.4367
+18:13:32 127.0.0.1 /woody/res/sz159919cn.php CNY/TRY 6.15237
+18:13:32 127.0.0.1 /woody/res/sz159919cn.php CNY/MXN 2.5687
+18:13:32 127.0.0.1 /woody/res/sz159919cn.php CNY/THB 4.4611
+18:13:33 127.0.0.1 /woody/res/sz159919cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (4)
+18:13:33 127.0.0.1 /woody/res/sz159919cn.php https://query1.finance.yahoo.com/v7/finance/chart/^ASHR-IV?range=1d&interval=1d&indicators=quote&includeTimestamps=true save new file to /Users/weixi1/Documents/workspace/web/debug/yahoo/_ashr-iv.txt
+18:13:33 127.0.0.1 /woody/res/sz159919cn.php no chart
+18:13:33 127.0.0.1 /woody/res/sz159919cn.php INIFile error: This file does not exist: /Users/weixi1/Documents/workspace/web/debug/config/sh000300.txt!
+
+18:14:01 127.0.0.1 /woody/res/chinafuturecn.php PHP错误: [8192] substr(): Passing null to parameter #1 ($string) of type string is deprecated
+位于/Users/weixi1/Documents/workspace/web/php/debug.php第108行 (5)
+18:14:01 127.0.0.1 /woody/res/chinafuturecn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+18:14:06 127.0.0.1 /woody/res/qdiicn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+18:14:08 127.0.0.1 /woody/res/qdiihkcn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+18:14:30 127.0.0.1 /woody/res/sz159561cn.php INIFile error: This file does not exist: /Users/weixi1/Documents/workspace/web/debug/config/znb_dax.txt!
+
+18:18:39 127.0.0.1 /woody/res/calibrationhistorycn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+18:18:42 127.0.0.1 /woody/res/sz159561cn.php INIFile error: This file does not exist: /Users/weixi1/Documents/workspace/web/debug/config/znb_dax.txt!
+
+18:20:45 127.0.0.1 /woody/res/fundpositioncn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+18:20:45 127.0.0.1 /woody/res/fundpositioncn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+18:20:51 127.0.0.1 /woody/res/sz159561cn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+18:22:30 127.0.0.1 /woody/res/calibrationhistorycn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+18:22:53 127.0.0.1 /woody/res/sz159561cn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+18:23:02 127.0.0.1 /woody/res/sh513030cn.php 调试消息 Short Meta Description Warning
+Length=50
+根据、德国DAX30等其它网站的数据来源估算SH513030华安德国(DAX)ETF净值的网页工具。
+位于/Users/weixi1/Documents/workspace/web/php/ui/plaintext.php第9行 (2)
+18:23:02 127.0.0.1 /woody/res/sh513030cn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+11:26:05 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+11:26:05 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (2)
+11:26:05 127.0.0.1 /woody/res/sz161226cn.php SzseGetLofShares: 318577.30
+11:26:05 127.0.0.1 /woody/res/sz161226cn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+11:26:17 127.0.0.1 /woody/res/chinafuturecn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (3)
+11:26:17 127.0.0.1 /woody/res/chinafuturecn.php PHP错误: [8192] substr(): Passing null to parameter #1 ($string) of type string is deprecated
+位于/Users/weixi1/Documents/workspace/web/php/debug.php第108行 (4)
+11:26:17 127.0.0.1 /woody/res/chinafuturecn.php PHP错误: [8192] substr(): Passing null to parameter #1 ($string) of type string is deprecated
+位于/Users/weixi1/Documents/workspace/web/php/debug.php第108行 (5)
+11:27:08 127.0.0.1 /woody/res/qdiimixcn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+11:27:23 127.0.0.1 /woody/res/qdiicn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+11:27:36 127.0.0.1 /woody/res/qdiicn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+11:30:37 127.0.0.1 /woody/res/qdiicn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+11:40:14 127.0.0.1 /woody/res/qdiicn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+11:40:14 127.0.0.1 /woody/res/qdiicn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+11:45:00 127.0.0.1 /woody/res/qdiicn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+11:45:01 127.0.0.1 /woody/res/qdiicn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+15:11:36 127.0.0.1 /woody/res/qdiicn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+15:13:02 127.0.0.1 /woody/res/qdiicn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (2)
+15:50:26 127.0.0.1 /woody/res/qdiicn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+15:50:26 127.0.0.1 /woody/res/qdiicn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+15:55:53 127.0.0.1 /woody/res/qdiicn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+15:58:53 127.0.0.1 /woody/res/qdiicn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+16:03:30 127.0.0.1 /woody/res/qdiicn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+16:15:49 127.0.0.1 /woody/res/qdiicn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+16:52:18 127.0.0.1 /woody/res/qdiicn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+17:29:00 127.0.0.1 /woody/res/qdiicn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+17:37:44 127.0.0.1 /woody/res/qdiicn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+17:37:45 127.0.0.1 /woody/res/qdiicn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+17:40:43 127.0.0.1 /woody/res/qdiicn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+17:41:18 127.0.0.1 /woody/res/sh501300cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (2)
+17:41:19 127.0.0.1 /woody/res/sh501300cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (3)
+17:41:19 127.0.0.1 /woody/res/sh501300cn.php https://query1.finance.yahoo.com/v7/finance/chart/^AGG-IV?range=1d&interval=1d&indicators=quote&includeTimestamps=true save new file to /Users/weixi1/Documents/workspace/web/debug/yahoo/_agg-iv.txt
+17:41:19 127.0.0.1 /woody/res/sh501300cn.php _yahooStockGetData Update net value for ^AGG-IV 2026-01-07 100.0728
+17:41:19 127.0.0.1 /woody/res/sh501300cn.php INIFile error: This file does not exist: /Users/weixi1/Documents/workspace/web/debug/config/agg.txt!
+
+17:41:19 127.0.0.1 /woody/res/sh501300cn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+17:42:42 127.0.0.1 /woody/res/stockhistorycn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (4)
+17:42:42 127.0.0.1 /woody/res/stockhistorycn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+17:42:49 127.0.0.1 /woody/res/sh501300cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (5)
+17:46:01 127.0.0.1 /woody/res/sh501300cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+17:46:08 127.0.0.1 /woody/res/qdiicn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (2)
+18:17:39 127.0.0.1 /woody/res/sh501300cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+18:19:47 127.0.0.1 /woody/res/calibrationhistorycn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+18:19:47 127.0.0.1 /woody/res/calibrationhistorycn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+11:08:39 127.0.0.1 /woody/res/calibrationhistorycn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+11:11:01 127.0.0.1 /woody/res/calibrationhistorycn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+11:11:09 127.0.0.1 /woody/res/calibrationhistorycn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+11:11:46 127.0.0.1 /woody/res/calibrationhistorycn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+11:12:19 127.0.0.1 /woody/res/chinaindexcn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (2)
+11:12:19 127.0.0.1 /woody/res/chinaindexcn.php 调试消息 Net value estimation error SH501043净值记录 实际值1.6142 估值4516.90135 误差:279722.91%
+位于/Users/weixi1/Documents/workspace/web/php/stock.php第140行 (3)
+11:12:19 127.0.0.1 /woody/res/chinaindexcn.php 调试消息 Net value estimation error SH510300净值记录 实际值4.864 估值4754.633 误差:97651.50%
+位于/Users/weixi1/Documents/workspace/web/php/stock.php第140行 (4)
+11:12:19 127.0.0.1 /woody/res/chinaindexcn.php 调试消息 Net value estimation error SH510310净值记录 实际值4.6594 估值4754.633 误差:101943.89%
+位于/Users/weixi1/Documents/workspace/web/php/stock.php第140行 (5)
+11:16:53 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+11:16:54 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (2)
+11:16:54 127.0.0.1 /woody/res/sz161226cn.php SzseGetLofShares: 320986.26
+11:20:35 127.0.0.1 /woody/res/calibrationhistorycn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+11:20:38 127.0.0.1 /woody/res/calibrationhistorycn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (2)
+11:21:06 127.0.0.1 /woody/res/chinafuturecn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (3)
+11:21:07 127.0.0.1 /woody/res/chinafuturecn.php PHP错误: [8192] substr(): Passing null to parameter #1 ($string) of type string is deprecated
+位于/Users/weixi1/Documents/workspace/web/php/debug.php第108行 (4)
+11:21:07 127.0.0.1 /woody/res/chinafuturecn.php PHP错误: [8192] substr(): Passing null to parameter #1 ($string) of type string is deprecated
+位于/Users/weixi1/Documents/workspace/web/php/debug.php第108行 (5)
+11:22:23 127.0.0.1 /woody/res/chinafuturecn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+11:26:13 127.0.0.1 /woody/res/sh518880cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+11:26:13 127.0.0.1 /woody/res/sh518880cn.php PHP错误: [8192] substr(): Passing null to parameter #1 ($string) of type string is deprecated
+位于/Users/weixi1/Documents/workspace/web/php/debug.php第108行 (2)
+11:26:13 127.0.0.1 /woody/res/sh518880cn.php PHP错误: [8192] substr(): Passing null to parameter #1 ($string) of type string is deprecated
+位于/Users/weixi1/Documents/workspace/web/php/debug.php第108行 (3)
+11:26:13 127.0.0.1 /woody/res/sh518880cn.php INIFile error: This file does not exist: /Users/weixi1/Documents/workspace/web/debug/config/au0.txt!
+
+11:30:01 127.0.0.1 /woody/res/chinafuturecn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+11:30:02 127.0.0.1 /woody/res/chinafuturecn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+11:30:50 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (2)
+11:31:16 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (3)
+11:31:45 127.0.0.1 /woody/res/fundlistcn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (4)
+11:31:52 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (5)
+11:31:54 127.0.0.1 /woody/res/calibrationhistorycn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+11:35:43 127.0.0.1 /woody/res/chinafuturecn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+11:35:44 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (2)
+11:35:44 127.0.0.1 /woody/res/sz161226cn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+11:36:06 127.0.0.1 /woody/res/fundhistorycn.php PHP错误: [8192] str_getcsv(): the $escape parameter must be provided as its default value will change
+位于/Users/weixi1/Documents/workspace/web/php/csvfile.php第97行 (3)
+11:36:06 127.0.0.1 /woody/res/fundhistorycn.php PHP错误: [8192] str_getcsv(): the $escape parameter must be provided as its default value will change
+位于/Users/weixi1/Documents/workspace/web/php/csvfile.php第97行 (4)
+11:36:06 127.0.0.1 /woody/res/fundhistorycn.php PHP错误: [8192] str_getcsv(): the $escape parameter must be provided as its default value will change
+位于/Users/weixi1/Documents/workspace/web/php/csvfile.php第97行 (5)
+11:36:06 127.0.0.1 /woody/res/fundhistorycn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+11:41:52 127.0.0.1 /woody/res/calibrationhistorycn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+12:14:20 127.0.0.1 /woody/res/fundhistorycn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+12:14:20 127.0.0.1 /woody/res/fundhistorycn.php PHP错误: [8192] str_getcsv(): the $escape parameter must be provided as its default value will change
+位于/Users/weixi1/Documents/workspace/web/php/csvfile.php第97行 (2)
+12:14:20 127.0.0.1 /woody/res/fundhistorycn.php PHP错误: [8192] str_getcsv(): the $escape parameter must be provided as its default value will change
+位于/Users/weixi1/Documents/workspace/web/php/csvfile.php第97行 (3)
+12:14:20 127.0.0.1 /woody/res/fundhistorycn.php PHP错误: [8192] str_getcsv(): the $escape parameter must be provided as its default value will change
+位于/Users/weixi1/Documents/workspace/web/php/csvfile.php第97行 (4)
+12:14:20 127.0.0.1 /woody/res/fundhistorycn.php PHP错误: [8192] str_getcsv(): the $escape parameter must be provided as its default value will change
+位于/Users/weixi1/Documents/workspace/web/php/csvfile.php第97行 (5)
+15:03:59 127.0.0.1 /woody/res/chinaindexcn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+15:03:59 127.0.0.1 /woody/res/chinaindexcn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+15:04:00 127.0.0.1 /woody/res/chinafuturecn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (2)
+15:04:02 127.0.0.1 /woody/res/sz159985cn.php INIFile error: This file does not exist: /Users/weixi1/Documents/workspace/web/debug/config/nf_m0.txt!
+
+15:04:02 127.0.0.1 /woody/res/sz159985cn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+15:04:07 127.0.0.1 /woody/res/sz159985cn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+15:05:09 127.0.0.1 /woody/res/chinafuturecn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (3)
+15:05:31 127.0.0.1 /woody/res/sz159985cn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+14:29:02 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+14:29:02 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (2)
+14:29:02 127.0.0.1 /woody/res/sz161226cn.php SzseGetLofShares: 325688.55
+14:45:20 127.0.0.1 /woody/res/chinafuturecn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+14:45:23 127.0.0.1 /woody/res/qdiicn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (2)
+14:45:23 127.0.0.1 /woody/res/qdiicn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+14:46:56 127.0.0.1 /woody/res/sh518800cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (3)
+14:47:01 127.0.0.1 /woody/res/fundlistcn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (4)
+14:47:02 127.0.0.1 /woody/res/fundlistcn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+14:52:54 127.0.0.1 /woody/res/fundlistcn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+14:56:20 127.0.0.1 /woody/res/fundlistcn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+15:27:15 127.0.0.1 /woody/res/fundlistcn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+15:27:15 127.0.0.1 /woody/res/fundlistcn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+15:29:08 127.0.0.1 /woody/res/fundlistcn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+15:29:08 127.0.0.1 /woody/res/fundlistcn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+15:30:12 127.0.0.1 /woody/res/fundlistcn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (2)
+15:31:12 127.0.0.1 /woody/res/fundlistcn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+15:31:48 127.0.0.1 /woody/res/sh501043cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (3)
+15:31:48 127.0.0.1 /woody/res/sh501043cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (4)
+15:31:48 127.0.0.1 /woody/res/sh501043cn.php /Users/weixi1/Documents/workspace/web/debug/chinamoney/json.txt: Save new file
+15:31:48 127.0.0.1 /woody/res/sh501043cn.php USD/CNY 7.0103
+15:31:48 127.0.0.1 /woody/res/sh501043cn.php Insert USCNY
+15:31:48 127.0.0.1 /woody/res/sh501043cn.php EUR/CNY 8.1463
+15:31:48 127.0.0.1 /woody/res/sh501043cn.php Insert EUCNY
+15:31:48 127.0.0.1 /woody/res/sh501043cn.php 100JPY/CNY 4.4222
+15:31:48 127.0.0.1 /woody/res/sh501043cn.php Insert JPCNY
+15:31:48 127.0.0.1 /woody/res/sh501043cn.php HKD/CNY 0.89914
+15:31:48 127.0.0.1 /woody/res/sh501043cn.php Insert HKCNY
+15:31:48 127.0.0.1 /woody/res/sh501043cn.php GBP/CNY 9.4038
+15:31:48 127.0.0.1 /woody/res/sh501043cn.php AUD/CNY 4.6827
+15:31:48 127.0.0.1 /woody/res/sh501043cn.php NZD/CNY 4.0260
+15:31:48 127.0.0.1 /woody/res/sh501043cn.php SGD/CNY 5.4368
+15:31:48 127.0.0.1 /woody/res/sh501043cn.php CHF/CNY 8.7582
+15:31:48 127.0.0.1 /woody/res/sh501043cn.php CAD/CNY 5.0308
+15:31:48 127.0.0.1 /woody/res/sh501043cn.php CNY/MOP 1.1460
+15:31:48 127.0.0.1 /woody/res/sh501043cn.php CNY/MYR 0.58036
+15:31:48 127.0.0.1 /woody/res/sh501043cn.php CNY/RUB 11.2381
+15:31:48 127.0.0.1 /woody/res/sh501043cn.php CNY/ZAR 2.3446
+15:31:48 127.0.0.1 /woody/res/sh501043cn.php CNY/KRW 210.48
+15:31:48 127.0.0.1 /woody/res/sh501043cn.php CNY/AED 0.52613
+15:31:48 127.0.0.1 /woody/res/sh501043cn.php CNY/SAR 0.53715
+15:31:48 127.0.0.1 /woody/res/sh501043cn.php CNY/HUF 47.4846
+15:31:48 127.0.0.1 /woody/res/sh501043cn.php CNY/PLN 0.51680
+15:31:48 127.0.0.1 /woody/res/sh501043cn.php CNY/DKK 0.9174
+15:31:48 127.0.0.1 /woody/res/sh501043cn.php CNY/SEK 1.3127
+15:31:48 127.0.0.1 /woody/res/sh501043cn.php CNY/NOK 1.4420
+15:31:48 127.0.0.1 /woody/res/sh501043cn.php CNY/TRY 6.17796
+15:31:48 127.0.0.1 /woody/res/sh501043cn.php CNY/MXN 2.5639
+15:31:48 127.0.0.1 /woody/res/sh501043cn.php CNY/THB 4.4752
+15:31:49 127.0.0.1 /woody/res/sh501043cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (5)
+15:31:49 127.0.0.1 /woody/res/sh501043cn.php https://query1.finance.yahoo.com/v7/finance/chart/^ASHR-IV?range=1d&interval=1d&indicators=quote&includeTimestamps=true save new file to /Users/weixi1/Documents/workspace/web/debug/yahoo/_ashr-iv.txt
+15:31:49 127.0.0.1 /woody/res/sh501043cn.php _yahooStockGetData Update net value for ^ASHR-IV 2026-01-12 34.058498
+15:36:16 127.0.0.1 /woody/res/sh518800cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+15:38:20 127.0.0.1 /woody/res/fundlistcn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+15:38:20 127.0.0.1 /woody/res/fundlistcn.php MyStockReference->_buildForeignMarketData: ^GLD-JP updated history on 2026-01-13: 421.13
+15:38:20 127.0.0.1 /woody/res/fundlistcn.php MyStockReference->_buildForeignMarketData: ^USO-JP updated history on 2026-01-13: 72.18
+15:38:20 127.0.0.1 /woody/res/fundlistcn.php MyStockReference->_buildForeignMarketData: ^USO-HK updated history on 2026-01-13: 72.18
+15:38:20 127.0.0.1 /woody/res/fundlistcn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+15:40:34 127.0.0.1 /woody/res/calibrationhistorycn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+15:40:34 127.0.0.1 /woody/res/calibrationhistorycn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+15:41:08 127.0.0.1 /woody/res/calibrationhistorycn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+15:41:11 127.0.0.1 /woody/res/calibrationhistorycn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (2)
+15:41:11 127.0.0.1 /woody/res/calibrationhistorycn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+15:41:12 127.0.0.1 /woody/res/calibrationhistorycn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (3)
+15:42:40 127.0.0.1 /woody/res/sh518800cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (4)
+15:42:49 127.0.0.1 /woody/res/chinafuturecn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (5)
+15:42:51 127.0.0.1 /woody/res/sz159934cn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+15:42:55 127.0.0.1 /woody/res/mystockcn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+15:43:07 127.0.0.1 /woody/res/calibrationhistorycn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+15:43:08 127.0.0.1 /woody/res/calibrationhistorycn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+15:43:11 127.0.0.1 /woody/res/calibrationhistorycn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+15:43:25 127.0.0.1 /woody/res/stockhistorycn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+15:44:34 127.0.0.1 /woody/res/stockhistorycn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+15:44:34 127.0.0.1 /woody/res/stockhistorycn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+15:44:53 127.0.0.1 /woody/res/chinafuturecn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (2)
+15:45:22 127.0.0.1 /woody/res/fundhistorycn.php PHP错误: [8192] str_getcsv(): the $escape parameter must be provided as its default value will change
+位于/Users/weixi1/Documents/workspace/web/php/csvfile.php第97行 (3)
+15:45:22 127.0.0.1 /woody/res/fundhistorycn.php PHP错误: [8192] str_getcsv(): the $escape parameter must be provided as its default value will change
+位于/Users/weixi1/Documents/workspace/web/php/csvfile.php第97行 (4)
+15:45:22 127.0.0.1 /woody/res/fundhistorycn.php PHP错误: [8192] str_getcsv(): the $escape parameter must be provided as its default value will change
+位于/Users/weixi1/Documents/workspace/web/php/csvfile.php第97行 (5)
+15:46:52 127.0.0.1 /woody/res/stockhistorycn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+15:50:51 127.0.0.1 /woody/res/qdiihkcn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+15:50:52 127.0.0.1 /woody/res/qdiihkcn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+15:51:33 127.0.0.1 /woody/res/qdiihkcn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+15:53:14 127.0.0.1 /woody/res/qdiijpcn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+15:54:52 127.0.0.1 /woody/res/qdiieucn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (2)
+15:55:40 127.0.0.1 /woody/res/chinafuturecn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (3)
+15:55:40 127.0.0.1 /woody/res/chinafuturecn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+15:55:42 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (4)
+15:55:42 127.0.0.1 /woody/res/sz161226cn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+15:56:06 127.0.0.1 /woody/res/sz161226cn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+15:56:54 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (5)
+16:03:04 127.0.0.1 /woody/res/sz161226cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+16:04:12 127.0.0.1 /woody/res/chinafuturecn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (2)
+16:04:12 127.0.0.1 /woody/res/chinafuturecn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+16:06:22 127.0.0.1 /woody/res/sz159985cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+16:07:56 127.0.0.1 /woody/res/sz159985cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (2)
+16:07:56 127.0.0.1 /woody/res/sz159985cn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+16:08:10 127.0.0.1 /woody/res/chinafuturecn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (3)
+16:08:12 127.0.0.1 /woody/res/sz159937cn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+16:09:12 127.0.0.1 /woody/res/sz159937cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (4)
+16:14:56 127.0.0.1 /woody/res/sz159937cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+19:12:40 127.0.0.1 /woody/res/sz159937cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+19:15:56 127.0.0.1 /woody/res/chinafuturecn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+19:15:56 127.0.0.1 /woody/res/chinafuturecn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+19:16:01 127.0.0.1 /woody/res/sz159934cn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+19:20:43 127.0.0.1 /woody/res/sz159934cn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (1)
+19:20:43 127.0.0.1 /woody/res/sz159934cn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+19:21:57 127.0.0.1 /woody/res/chinafuturecn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (2)
+19:21:57 127.0.0.1 /woody/res/chinafuturecn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg
+19:23:13 127.0.0.1 /woody/res/chinafuturecn.php PHP错误: [8192] Function curl_close() is deprecated since 8.5, as it has no effect since PHP 8.0
+位于/Users/weixi1/Documents/workspace/web/php/url.php第83行 (3)
+19:23:42 127.0.0.1 /woody/res/sh518800cn.php Image not found: /Users/weixi1/Documents/workspace/web/debug/wechat/29e0a407b577177b.jpg

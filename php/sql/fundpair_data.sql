@@ -1,7 +1,7 @@
 -- =====================================================
 -- 基金指数对照表数据
 -- 数据来源: https://www.palmmicro.com/woody/res/fundlistcn.php
--- 生成日期: 2026-01-06
+-- 生成日期: 2026-01-13
 -- =====================================================
 -- fundpair 表结构: id (基金stock_id), stock_id (指数stock_id)
 -- fundposition 表结构: id (基金stock_id), close (仓位)
@@ -18,30 +18,30 @@ INSERT IGNORE INTO stock (symbol, name) VALUES ('ASHR', '沪深300 ETF');
 INSERT IGNORE INTO stock (symbol, name) VALUES ('CPER', '美国铜指数基金');
 INSERT IGNORE INTO stock (symbol, name) VALUES ('DIA', '道指ETF');
 INSERT IGNORE INTO stock (symbol, name) VALUES ('GLD', '金价ETF');
-INSERT IGNORE INTO stock (symbol, name) VALUES ('GLDM', 'SPDR Gold MiniShares');
-INSERT IGNORE INTO stock (symbol, name) VALUES ('IAU', 'iShares Gold Trust');
-INSERT IGNORE INTO stock (symbol, name) VALUES ('INDA', 'iShares MSCI印度ETF');
+INSERT IGNORE INTO stock (symbol, name) VALUES ('GLDM', 'SPDR Gold MiniShares Trust');
+INSERT IGNORE INTO stock (symbol, name) VALUES ('IAU', '黄金ETF-iShares');
+INSERT IGNORE INTO stock (symbol, name) VALUES ('INDA', '印度股指ETF');
 INSERT IGNORE INTO stock (symbol, name) VALUES ('QQQ', '纳指100ETF');
-INSERT IGNORE INTO stock (symbol, name) VALUES ('SGOL', 'Aberdeen Standard Physical Gold Shares');
-INSERT IGNORE INTO stock (symbol, name) VALUES ('SH', 'ProShares做空标普500');
+INSERT IGNORE INTO stock (symbol, name) VALUES ('SGOL', 'abrdn Physical Gold Shares ETF');
+INSERT IGNORE INTO stock (symbol, name) VALUES ('SH', '标普500指数ETF-ProShares做空');
 INSERT IGNORE INTO stock (symbol, name) VALUES ('SH501043', '沪深300LOF');
 INSERT IGNORE INTO stock (symbol, name) VALUES ('SH510300', '沪深300ETF');
 INSERT IGNORE INTO stock (symbol, name) VALUES ('SH510310', '沪深300ETF易方达');
 INSERT IGNORE INTO stock (symbol, name) VALUES ('SH510330', '沪深300ETF华夏');
 INSERT IGNORE INTO stock (symbol, name) VALUES ('SH518800', '黄金基金ETF');
-INSERT IGNORE INTO stock (symbol, name) VALUES ('SH518880', '黄金ETF华安');
-INSERT IGNORE INTO stock (symbol, name) VALUES ('SLV', 'iShares白银ETF');
+INSERT IGNORE INTO stock (symbol, name) VALUES ('SH518880', '黄金ETF');
+INSERT IGNORE INTO stock (symbol, name) VALUES ('SLV', 'iShares-白银ETF-iShares');
 INSERT IGNORE INTO stock (symbol, name) VALUES ('SPY', 'SPDR标普500 ETF');
 INSERT IGNORE INTO stock (symbol, name) VALUES ('SZ159919', '沪深300ETF');
 INSERT IGNORE INTO stock (symbol, name) VALUES ('SZ159934', '黄金ETF');
-INSERT IGNORE INTO stock (symbol, name) VALUES ('SZ159937', '博时黄金ETF');
+INSERT IGNORE INTO stock (symbol, name) VALUES ('SZ159937', '黄金ETF基金');
 INSERT IGNORE INTO stock (symbol, name) VALUES ('SZ159985', '豆粕ETF');
 INSERT IGNORE INTO stock (symbol, name) VALUES ('SZ161226', '国投白银LOF');
 INSERT IGNORE INTO stock (symbol, name) VALUES ('TQQQ', '纳斯达克指数ETF-ProShares三倍做多');
-INSERT IGNORE INTO stock (symbol, name) VALUES ('UCO', 'ProShares二倍做多原油ETF');
+INSERT IGNORE INTO stock (symbol, name) VALUES ('UCO', '原油指数ETF-ProShares DJ-UBS两倍做多');
 INSERT IGNORE INTO stock (symbol, name) VALUES ('USO', '油价ETF');
-INSERT IGNORE INTO stock (symbol, name) VALUES ('CHA50CFD', '富时中国A50 CFD');
-INSERT IGNORE INTO stock (symbol, name) VALUES ('NKY', '日经225 ETF');
+INSERT IGNORE INTO stock (symbol, name) VALUES ('CHA50CFD', '富时中国A50指数');
+INSERT IGNORE INTO stock (symbol, name) VALUES ('NKY', '日经225');
 
 -- 指数/期货代码 (使用新浪格式)
 INSERT IGNORE INTO stock (symbol, name) VALUES ('SH000300', '沪深300指数');
@@ -59,6 +59,19 @@ INSERT IGNORE INTO stock (symbol, name) VALUES ('hf_CL', 'WTI原油期货');
 INSERT IGNORE INTO stock (symbol, name) VALUES ('znb_SENSEX', '印度Sensex指数');
 INSERT IGNORE INTO stock (symbol, name) VALUES ('nf_M0', '大连豆粕期货');
 INSERT IGNORE INTO stock (symbol, name) VALUES ('hf_NK', '日经225期货');
+
+-- 线上额外指数/期货代码
+INSERT IGNORE INTO stock (symbol, name) VALUES ('^GLD-EU', 'GLD欧洲股市收盘价格');
+INSERT IGNORE INTO stock (symbol, name) VALUES ('^GLD-JP', 'GLD日本股市收盘价格');
+INSERT IGNORE INTO stock (symbol, name) VALUES ('^HSI', '恒生指数-HSI');
+INSERT IGNORE INTO stock (symbol, name) VALUES ('^USO-EU', 'USO欧洲股市收盘价格');
+INSERT IGNORE INTO stock (symbol, name) VALUES ('^USO-HK', 'USO香港股市收盘价格');
+INSERT IGNORE INTO stock (symbol, name) VALUES ('^USO-JP', 'USO日本股市收盘价格');
+INSERT IGNORE INTO stock (symbol, name) VALUES ('hf_ES', '标普500期货');
+INSERT IGNORE INTO stock (symbol, name) VALUES ('hf_HSI', '恒生指数期货');
+INSERT IGNORE INTO stock (symbol, name) VALUES ('hf_NQ', '纳斯达克100期货');
+INSERT IGNORE INTO stock (symbol, name) VALUES ('hf_CHA50CFD', '富时中国A50期货');
+INSERT IGNORE INTO stock (symbol, name) VALUES ('znb_NKY', '日经225指数');
 
 -- =====================================================
 -- 清空现有 fundpair 数据重新插入

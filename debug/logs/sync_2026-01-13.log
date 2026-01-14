@@ -1,0 +1,255 @@
+[2026-01-13 19:22:33] ========== 校准数据同步 ==========
+[2026-01-13 19:22:33] 开始: QDII基金校准数据
+需要同步的基金数量: 73
+PHP Warning:  mkdir(): Read-only file system in /Users/weixi1/Documents/workspace/web/php/debug.php on line 125
+
+Warning: mkdir(): Read-only file system in /Users/weixi1/Documents/workspace/web/php/debug.php on line 125
+PHP Warning:  file_put_contents(/debug/errorhandler.txt): Failed to open stream: No such file or directory in /Users/weixi1/Documents/workspace/web/php/sql.php on line 170
+
+Warning: file_put_contents(/debug/errorhandler.txt): Failed to open stream: No such file or directory in /Users/weixi1/Documents/workspace/web/php/sql.php on line 170
+PHP Warning:  Undefined array key "SERVER_PORT" in /Users/weixi1/Documents/workspace/web/php/url.php on line 90
+
+Warning: Undefined array key "SERVER_PORT" in /Users/weixi1/Documents/workspace/web/php/url.php on line 90
+PHP Warning:  Undefined array key "SERVER_PORT" in /Users/weixi1/Documents/workspace/web/php/url.php on line 101
+
+Warning: Undefined array key "SERVER_PORT" in /Users/weixi1/Documents/workspace/web/php/url.php on line 101
+PHP Warning:  Undefined array key "SERVER_PORT" in /Users/weixi1/Documents/workspace/web/php/url.php on line 101
+
+Warning: Undefined array key "SERVER_PORT" in /Users/weixi1/Documents/workspace/web/php/url.php on line 101
+PHP Warning:  Undefined array key "SERVER_NAME" in /Users/weixi1/Documents/workspace/web/php/url.php on line 103
+
+Warning: Undefined array key "SERVER_NAME" in /Users/weixi1/Documents/workspace/web/php/url.php on line 103
+PHP Warning:  Undefined array key "SERVER_PORT" in /Users/weixi1/Documents/workspace/web/php/url.php on line 103
+
+Warning: Undefined array key "SERVER_PORT" in /Users/weixi1/Documents/workspace/web/php/url.php on line 103
+PHP Warning:  Undefined array key "REQUEST_URI" in /Users/weixi1/Documents/workspace/web/php/url.php on line 249
+
+Warning: Undefined array key "REQUEST_URI" in /Users/weixi1/Documents/workspace/web/php/url.php on line 249
+PHP Warning:  Undefined array key "REMOTE_ADDR" in /Users/weixi1/Documents/workspace/web/php/url.php on line 28
+
+Warning: Undefined array key "REMOTE_ADDR" in /Users/weixi1/Documents/workspace/web/php/url.php on line 28
+PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/weixi1/Documents/workspace/web/php/url.php on line 28
+
+Deprecated: trim(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/weixi1/Documents/workspace/web/php/url.php on line 28
+Unknown IP[2026-01-13 19:22:33] 完成: QDII基金校准数据 (成功)
+[2026-01-13 19:22:33] 开始: 美股QDII校准数据
+需要同步的基金数量: 36
+
+处理: SH501300 (stock_id: 51) - 找到 359 条, 插入 2 条
+
+处理: SH513290 (stock_id: 52) - 找到 500 条, 插入 3 条
+
+处理: SH513400 (stock_id: 53) - 找到 449 条, 插入 2 条
+
+处理: SZ160140 (stock_id: 86) - 找到 500 条, 插入 2 条
+
+处理: SZ161126 (stock_id: 87) - 找到 500 条, 插入 3 条
+
+处理: SZ161128 (stock_id: 88) - 找到 500 条, 插入 3 条
+
+处理: SZ162415 (stock_id: 89) - 找到 500 条, 插入 3 条
+
+处理: SZ164824 (stock_id: 90) - 找到 500 条, 插入 3 条
+
+处理: SZ164906 (stock_id: 95) - 找到 81 条, 插入 2 条
+
+处理: SZ159502 (stock_id: 96) - 找到 467 条, 插入 2 条
+
+处理: SZ161127 (stock_id: 97) - 找到 500 条, 插入 3 条
+
+处理: SH513350 (stock_id: 98) - 找到 497 条, 插入 3 条
+
+处理: SZ159518 (stock_id: 99) - 找到 500 条, 插入 3 条
+
+处理: SZ162411 (stock_id: 100) - 找到 500 条, 插入 3 条
+
+处理: SZ160416 (stock_id: 101) - 找到 500 条, 插入 3 条
+
+处理: SZ162719 (stock_id: 102) - 找到 500 条, 插入 2 条
+
+处理: SZ163208 (stock_id: 103) - 找到 500 条, 插入 2 条
+
+处理: SZ161815 (stock_id: 104) - 找到 500 条, 插入 3 条
+
+处理: SH513100 (stock_id: 105) - 找到 500 条, 插入 2 条
+
+处理: SH513110 (stock_id: 160) - 找到 500 条, 插入 3 条
+
+处理: SH513300 (stock_id: 161) - 找到 500 条, 插入 2 条
+
+处理: SH513390 (stock_id: 162) - 找到 500 条, 插入 3 条
+
+处理: SH513870 (stock_id: 163) - 找到 500 条, 插入 3 条
+
+处理: SZ159501 (stock_id: 164) - 找到 500 条, 插入 2 条
+
+处理: SZ159513 (stock_id: 165) - 找到 500 条, 插入 2 条
+
+处理: SZ159632 (stock_id: 166) - 找到 500 条, 插入 2 条
+
+处理: SZ159659 (stock_id: 167) - 找到 500 条, 插入 2 条
+
+处理: SZ159660 (stock_id: 168) - 找到 500 条, 插入 3 条
+
+处理: SZ159696 (stock_id: 169) - 找到 500 条, 插入 3 条
+
+处理: SZ159941 (stock_id: 170) - 找到 500 条, 插入 2 条
+
+处理: SZ161130 (stock_id: 171) - 找到 500 条, 插入 3 条
+
+处理: SH513500 (stock_id: 172) - 找到 500 条, 插入 3 条
+
+处理: SH513650 (stock_id: 173) - 找到 500 条, 插入 2 条
+
+处理: SZ159612 (stock_id: 174) - 找到 500 条, 插入 2 条
+
+处理: SZ159655 (stock_id: 175) - 找到 500 条, 插入 2 条
+
+处理: SZ161125 (stock_id: 176) - 找到 500 条, 插入 3 条
+
+
+=== 同步完成 ===
+总共处理: 17353 条记录
+新插入: 91 条记录
+[2026-01-13 19:24:17] 完成: 美股QDII校准数据 (成功)
+[2026-01-13 19:24:17] 开始: ChinaFuture校准数据
+同步 ChinaFuture 基金的 calibrationhistory 数据
+======================================================================
+
+处理: SH518800
+  stock_id: 14
+  获取: https://www.palmmicro.com/woody/res/calibrationhistorycn.php?symbol=SH518800&num=500&start=0
+  本页找到 500 条记录
+  获取: https://www.palmmicro.com/woody/res/calibrationhistorycn.php?symbol=SH518800&num=500&start=500
+  插入 0 条新记录
+
+处理: SH518880
+  stock_id: 37
+  获取: https://www.palmmicro.com/woody/res/calibrationhistorycn.php?symbol=SH518880&num=500&start=0
+  本页找到 500 条记录
+  获取: https://www.palmmicro.com/woody/res/calibrationhistorycn.php?symbol=SH518880&num=500&start=500
+  插入 0 条新记录
+
+处理: SZ159934
+  stock_id: 17
+  获取: https://www.palmmicro.com/woody/res/calibrationhistorycn.php?symbol=SZ159934&num=500&start=0
+  本页找到 500 条记录
+  获取: https://www.palmmicro.com/woody/res/calibrationhistorycn.php?symbol=SZ159934&num=500&start=500
+  插入 0 条新记录
+
+处理: SZ159937
+  stock_id: 38
+  获取: https://www.palmmicro.com/woody/res/calibrationhistorycn.php?symbol=SZ159937&num=500&start=0
+  本页找到 446 条记录
+  插入 0 条新记录
+
+处理: SZ159985
+  stock_id: 39
+  获取: https://www.palmmicro.com/woody/res/calibrationhistorycn.php?symbol=SZ159985&num=500&start=0
+  本页找到 67 条记录
+  插入 0 条新记录
+
+处理: SZ161226
+  stock_id: 1
+  获取: https://www.palmmicro.com/woody/res/calibrationhistorycn.php?symbol=SZ161226&num=500&start=0
+  本页找到 500 条记录
+  获取: https://www.palmmicro.com/woody/res/calibrationhistorycn.php?symbol=SZ161226&num=500&start=500
+  插入 0 条新记录
+
+======================================================================
+同步完成! 总共插入 0 条记录
+[2026-01-13 19:24:47] 完成: ChinaFuture校准数据 (成功)
+[2026-01-13 19:24:47] 开始: 基金配对校准数据
+需要同步的标的数量: 20
+
+处理: INDA (stock_id: 32) - 找到 382 条, 插入 2 条
+
+处理: KWEB (stock_id: 153) - 警告: 没有找到数据
+
+处理: ^NDX (stock_id: 24) - 找到 435 条, 插入 2 条
+
+处理: ^GSPC (stock_id: 25) - 找到 435 条, 插入 2 条
+
+处理: ^DJI (stock_id: 22) - 警告: 没有找到数据
+
+处理: XBI (stock_id: 154) - 警告: 没有找到数据
+
+处理: XOP (stock_id: 155) - 警告: 没有找到数据
+
+处理: IBB (stock_id: 85) - 警告: 没有找到数据
+
+处理: VNQ (stock_id: 91) - 警告: 没有找到数据
+
+处理: XLK (stock_id: 93) - 警告: 没有找到数据
+
+处理: XLY (stock_id: 94) - 警告: 没有找到数据
+
+处理: IEO (stock_id: 157) - 警告: 没有找到数据
+
+处理: XLE (stock_id: 158) - 警告: 没有找到数据
+
+处理: RSPH (stock_id: 92) - 警告: 没有找到数据
+
+处理: IXC (stock_id: 156) - 警告: 没有找到数据
+
+处理: GSG (stock_id: 159) - 警告: 没有找到数据
+
+处理: AGG (stock_id: 83) - 警告: 没有找到数据
+
+处理: ^HSI (stock_id: 150) - 找到 426 条, 插入 2 条
+
+处理: ^HSTECH (stock_id: 151) - 警告: 没有找到数据
+
+处理: ^HSCE (stock_id: 152) - 警告: 没有找到数据
+
+
+=== 同步完成 ===
+总共处理: 1678 条记录
+新插入: 8 条记录
+[2026-01-13 19:25:20] 完成: 基金配对校准数据 (成功)
+[2026-01-13 19:25:20] 开始: Fundlist校准数据
+=== 开始同步 fundlist calibration 数据 ===
+需要处理: 36 个符号
+
+处理: ASHR - 已是最新
+处理: CPER - 已是最新
+处理: DIA - 已是最新
+处理: GLD - 已是最新
+处理: GLDM - 已是最新
+处理: IAU - 已是最新
+处理: INDA - 已是最新
+处理: QQQ - 已是最新
+处理: SGOL - 已是最新
+处理: SH - 已是最新
+处理: SH501043 - 已是最新
+处理: SH510300 - 已是最新
+处理: SH510310 - 已是最新
+处理: SH510330 - 已是最新
+处理: SH518800 - 已是最新
+处理: SH518880 - 已是最新
+处理: SLV - 已是最新
+处理: SPY - 已是最新
+处理: SZ159919 - 新增: 958.6543 (2026-01-12)
+处理: SZ159934 - 已是最新
+处理: SZ159937 - 已是最新
+处理: SZ159985 - 已是最新
+处理: SZ161226 - 已是最新
+处理: TQQQ - 已是最新
+处理: UCO - 已是最新
+处理: USO - 已是最新
+处理: ^GLD-EU - 新增: 10.9021 (2026-01-12)
+处理: ^GLD-JP - 跳过(无日期)
+处理: ^GSPC - 已是最新
+处理: ^HSI - 已是最新
+处理: ^NDX - 已是最新
+处理: ^USO-EU - 新增: 0.8277 (2026-01-12)
+处理: ^USO-HK - 跳过(无日期)
+处理: ^USO-JP - 跳过(无日期)
+处理: CHA50CFD - 已是最新
+处理: NKY - 已是最新
+
+=== 同步完成 ===
+更新: 0 条
+新增: 3 条
+跳过: 3 条
+[2026-01-13 19:25:20] 完成: Fundlist校准数据 (成功)
