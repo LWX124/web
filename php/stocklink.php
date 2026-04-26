@@ -25,6 +25,8 @@ define('QDII_HK_DISPLAY', '港股QDII');
 define('QDII_JP_DISPLAY', '日本QDII');
 define('QDII_EU_DISPLAY', '欧洲QDII');
 
+define('HOLDINGS_DISPLAY', '基金持仓');
+
 define('STOCK_OPTION_ADR', '修改H股对应ADR代码');
 define('STOCK_OPTION_AH', '修改A股对应H股代码');
 define('STOCK_OPTION_AMOUNT', '基金申购金额');
@@ -33,10 +35,10 @@ define('STOCK_OPTION_CLOSE', '更新收盘价');
 define('STOCK_OPTION_DIVIDEND', '分红');
 define('STOCK_OPTION_EDIT', '修改股票说明');
 define('STOCK_OPTION_EMA', '修改200/50日EMA');
-define('STOCK_OPTION_FUND', '修改对应配对代码和仓位');
+define('STOCK_OPTION_FUND', '修改对应配对代码和'.STOCK_DISP_POSITION);
 define('STOCK_OPTION_HA', '修改H股对应A股代码');
-define('STOCK_OPTION_HOLDINGS', '修改基金持仓');
-define('STOCK_OPTION_NETVALUE', '修改净值');
+define('STOCK_OPTION_HOLDINGS', '修改'.HOLDINGS_DISPLAY);
+define('STOCK_OPTION_NETVALUE', '修改'.STOCK_DISP_NETVALUE);
 define('STOCK_OPTION_PREMIUM', '期货升水');
 define('STOCK_OPTION_SHARE_DIFF', '场内新增(万)');
 define('STOCK_OPTION_SPLIT', '拆股或合股');
@@ -137,7 +139,6 @@ function SymCalibrationHistoryLink($sym)
     return GetCalibrationHistoryLink($sym->GetSymbol(), $sym->GetDisplay());
 }
 
-define('HOLDINGS_DISPLAY', '基金持仓');
 function GetHoldingsLink($strSymbol, $strDisplay = HOLDINGS_DISPLAY)
 {
     return GetStockSymbolLink('holdings', $strSymbol, ($strDisplay ? $strDisplay : $strSymbol));
@@ -190,13 +191,15 @@ function GetFundLinks($strSymbol)
 	$bQdiiJp = in_arrayQdiiJp($strSymbol);
 	$bQdiiEu = in_arrayQdiiEu($strSymbol);
 	$bQdiiMix = in_arrayQdiiMix($strSymbol);
+    $bGoldOil = in_arrayQdiiGoldOil($strSymbol);
 
 	$str = GetStockHistoryLink($strSymbol).' '.GetFundHistoryLink($strSymbol).' '.GetNetValueHistoryLink($strSymbol).' '.GetNetValueCloseLink($strSymbol).' '.GetFundShareLink($strSymbol);
 	if ($bChinaFuture || $bChinaIndex || $bQdii || $bQdiiHk || $bQdiiJp || $bQdiiEu || $bQdiiMix)
 	{
 		$str .= ' '.GetCalibrationHistoryLink($strSymbol);
-		if ($bQdii || $bQdiiHk || $bQdiiJp || $bQdiiEu)		$str .= ' '.GetFundPositionLink($strSymbol);
-		if ($bQdii)											$str .= ' '.GetFundAccountLink($strSymbol).' '.GetThanousParadoxLink($strSymbol);
+		if ($bQdii || $bQdiiHk || $bQdiiJp || $bQdiiEu || $bGoldOil)	$str .= ' '.GetFundPositionLink($strSymbol);
+		if ($bQdii)											            $str .= ' '.GetFundAccountLink($strSymbol).' '.GetThanousParadoxLink($strSymbol);
+		if ($bQdiiEu || $bGoldOil)	                                    $str .= ' '.GetExhaustiveHoldingsLink($strSymbol);
 	}
 	else
 	{
@@ -235,7 +238,7 @@ function GetFundShareLink($strSymbol)
     return GetStockSymbolLink('fundshare', $strSymbol, FUND_SHARE_DISPLAY);
 }
 
-define('EXHAUSTIVE_HOLDINGS_DISPLAY', '穷举持仓比例');
+define('EXHAUSTIVE_HOLDINGS_DISPLAY', '穷举'.STOCK_DISP_HOLDING.'比例');
 function GetExhaustiveHoldingsLink($strSymbol)
 {
     return GetStockSymbolLink('exhaustiveholdings', $strSymbol, EXHAUSTIVE_HOLDINGS_DISPLAY);

@@ -4,7 +4,7 @@ require_once('stockbot.php');
 require_once('stockdataarray.php');
 
 // 电报公共模板, 返回输入信息
-define('TG_DEBUG_VER', '版本038');		
+define('TG_DEBUG_VER', '版本041');		
 
 define('BOT_EOL', "\r\n");
 define('MAX_BOT_MSG_LEN', 2048);
@@ -66,27 +66,38 @@ class TelegramCallback
 
 	function _processMessage($message) 
 	{	// process incoming message
-		$strMessageId = $message['message_id'];
-		$strChatId = $message['chat']['id'];
+		if (isset($message['message_id']))	$strMessageId = $message['message_id'];
+		else								return;
+
+		if (isset($message['chat']))		$strChatId = $message['chat']['id'];
+		else								return;
+
 		if (isset($message['text'])) 
 		{	// incoming text message
-			$text = $message['text'];
-			LogBotVisit(TABLE_TELEGRAM_BOT, $text, $strChatId);
-			if (str_starts_with($text, '@'))
+			$strText = $message['text'];
+			LogBotVisit(TABLE_TELEGRAM_BOT, $strText, $strChatId);
+			if ($strToken = UrlGetQueryValue('token'))
 			{
-				$text = ltrim($text, '@');
-				$strToken = UrlGetQueryValue('token');
-				if ($strChatId == TG_ADMIN_CHAT_ID && ($strToken == TG_TOKEN || $strToken == TG_TOKEN_ZHU))
+				if ($strToken == TG_TOKEN || $strToken == WECHAT_QMT_KEY)
 				{
-					DebugString(__CLASS__.'->'.__FUNCTION__.' '.$text);
-					$this->ReplyText(GetStockDataArray($text), $strMessageId, $strChatId);
-					return;
+					$this->ReplyText(GetStockDataArray($strText), $strMessageId, $strChatId);
 				}
+				else if ($strToken == WECHAT_ROT_KEY)
+				{
+					$this->ReplyText(GetStockDataArray($strText, array_merge(QdiiGetQqqMatchArray(), QdiiGetXopSymbolArray(), QdiiGetXbiSymbolArray())), $strMessageId, $strChatId);
+				}
+				else
+				{
+					$str = '无效token: '.$strToken;
+					$this->Debug($str);
+					DebugString(__CLASS__.__FUNCTION__.$str);
+				}
+				return;
 			}
-			else if (str_starts_with($text, '/'))
+			else if (str_starts_with($strText, '/'))
 			{
-				$text = trim(ltrim($text, '/'));
-				switch ($text)
+				$strText = trim(ltrim($strText, '/'));
+				switch ($strText)
 				{
 				case 'start':
 //					apiRequestJson("sendMessage", array('chat_id' => $strChatId, "text" => 'Hello', 'reply_markup' => array('keyboard' => array(array('Hello', 'Hi')), 'one_time_keyboard' => true, 'resize_keyboard' => true)));
@@ -96,7 +107,7 @@ class TelegramCallback
 					return;
 				}
 			} 
-			$this->OnText($text, $strMessageId, $strChatId);
+			$this->OnText($strText, $strMessageId, $strChatId);
 		}
 		else 
 		{
@@ -128,6 +139,18 @@ class TelegramStock extends TelegramCallback
 
     public function OnText($strText, $strMessageId, $strChatId)
     {
+		//DebugString($_SERVER['HTTP_X_TELEGRAM_BOT_API_SECRET_TOKEN']);
+		//DebugPrint(getallheaders());
+		//DebugString(UrlGetCur().UrlGetQueryString());
+		$strIp = UrlGetIp();
+		if ($strIp != '91.108.5.6')
+		{
+			$str = '未授权IP: '.$strIp;
+        	$this->Debug($str);
+			DebugString(__CLASS__.__FUNCTION__.$str);
+			return;
+		}	
+
     	$strVersion = $this->GetVersion();
         if ($str = StockBotGetStr($strText, $strVersion))
         {

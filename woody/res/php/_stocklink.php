@@ -37,7 +37,7 @@ function GetCategoryArray($strItem)
         break;
         
     case 'commodity':
-        $ar = array_merge(QdiiGetCommoditySymbolArray(), ChinaFutureGetSymbolArray(), GetQdiiGoldSymbolArray(), array('SZ160216'));
+        $ar = array_merge(ChinaFutureGetSymbolArray(), GetQdiiGoldSymbolArray());
         break;
         
     case 'hangseng':
@@ -201,11 +201,12 @@ function GetHuaAnSoftwareLinks($strDigitA)
     return ' '.GetOfficialLink($strUrl.'/funds/'.$strDigitA.'/index.shtml', $strDigitA)._getCategorySoftwareLinks($ar, GetExternalLink($strUrl, '华安基金'));
 }
 
+// https://www.fsfund.com/fund/501312/fundDetail.shtml
 function GetHuaBaoSoftwareLinks($strDigitA)
 {
     $ar = array('SH501312', 'SZ162411', 'SZ162415');
-	$strUrl = 'http://www.fsfund.com';
-    return ' '.GetOfficialLink($strUrl.'/funds/'.$strDigitA.'/index.shtml', $strDigitA)._getCategorySoftwareLinks($ar, GetExternalLink($strUrl, '华宝基金'));
+	$strUrl = 'https://www.fsfund.com';
+    return ' '.GetOfficialLink($strUrl.'/fund/'.$strDigitA.'/fundDetail.shtml', $strDigitA)._getCategorySoftwareLinks($ar, GetExternalLink($strUrl, '华宝基金'));
 }
 
 function GetHuaTaiSoftwareLinks($strDigitA)
@@ -325,11 +326,12 @@ function GetXinChengSoftwareLinks($strDigitA)
     return ' '.GetOfficialLink($strUrl.'/pc/productDetail?fundcode='.$strDigitA, $strDigitA)._getCategorySoftwareLinks($ar, GetExternalLink($strUrl, '信诚基金'));
 }
 
+//https://www.yhfund.com.cn/main/fund/funddetail/index.shtml?product_code=161815
 function GetYinHuaSoftwareLinks($strDigitA)
 {
     $ar = array('SZ159567', 'SZ161815', 'SZ161831');
-	$strUrl = 'http://www.yhfund.com.cn';
-    return ' '.GetOfficialLink($strUrl.'/main/qxjj/'.$strDigitA.'/fndFacts.shtml', $strDigitA)._getCategorySoftwareLinks($ar, GetExternalLink($strUrl, '银华基金'));
+	$strUrl = 'https://www.yhfund.com.cn';
+    return ' '.GetOfficialLink($strUrl.'/main/fund/funddetail/index.shtml?product_code='.$strDigitA, $strDigitA)._getCategorySoftwareLinks($ar, GetExternalLink($strUrl, '银华基金'));
 }
 /*
 大卫把移民话题带这么火，我来跟风讲个凡尔赛的故事吧。
@@ -357,6 +359,6 @@ function GetYinHuaSoftwareLinks($strDigitA)
 随着油价跌破10美元，大师被强平。
 大师输红了眼，继续又卖了1000手6月合约10美元的PUT。几天后6月合约再次跌破10美元，最低到了6美元，大师多年赚的美元全部灰飞烟灭。
 老房子着火最可怕
-
+https://xueqiu.com/1876906471/152959448
 */
 ?>

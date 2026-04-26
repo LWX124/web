@@ -8,7 +8,7 @@ function _echoFundEstTableItem($ref, $bFair, $bWide = false)
 {
     if (RefHasData($ref) == false)      return;
 
-    $ar = array($ref->GetStockLink());
+    $ar = array($ref->GetStockLink());	// .' '.$ref->GetStockId()
     if ($bWide)
     {
     	$stock_ref = GetStockRef($ref);
@@ -55,7 +55,7 @@ function _getFundEstTableColumn($arRef, &$bFair, $bWide = false)
 {
 	$ar = array(new TableColumnSymbol());
 	if ($bWide)	$ar = array_merge($ar, GetStockReferenceColumn());
-	$ar[] = new TableColumnOfficalEst();
+	$ar[] = new TableColumnOfficialEst();
 	$ar[] = new TableColumnDate(STOCK_DISP_EST);
 	$ar[] = new TableColumnPremium();	// STOCK_DISP_OFFICIAL
 		
@@ -114,9 +114,11 @@ function _echoFundEstParagraph($arColumn, $bFair, $arRef, $str, $bWide = false)
 		}
 	}
 	
-	EchoTableParagraphBegin($arColumn, 'estimation', $str);
-    foreach ($arRef as $ref)		_echoFundEstTableItem($ref, $bFair, $bWide);
-    EchoTableParagraphEnd();
+	if (EchoTableParagraphBegin($arColumn, 'estimation', $str))
+	{
+	    foreach ($arRef as $ref)		_echoFundEstTableItem($ref, $bFair, $bWide);
+    	EchoTableParagraphEnd();
+	}	
 }
 
 function EchoFundArrayEstParagraph($arRef, $str = false, $bWide = false)
@@ -130,7 +132,7 @@ function _getFundPositionStr($ref)
 	$str = '';
 	$fPosition = $ref->GetPosition();
 	//if ($fPosition < 1.0)									
-	$str .= GetFundPositionLink($ref->GetSymbol()).'值使用'.strval($fPosition).'。';
+	$str .= GetFundPositionLink($ref->GetSymbol()).'值使用'.number_format($fPosition, 2).'。';
 	return $str;
 }
 

@@ -6,6 +6,7 @@
 https://finance.sina.com.cn/money/globalindex/asia.shtml
 gb_dji,gb_ixic,gb_inx,
 znb_UKX,znb_DAX,znb_INDEXCF,znb_CAC,znb_SMI,znb_FTSEMIB,znb_MADX,znb_OMX,znb_HEX,znb_OSEAX,znb_ISEQ,znb_AEX,znb_IBEX,znb_SX5E,znb_XU100,znb_NKY,znb_TWJQ,znb_FSSTI,znb_KOSPI,znb_FBMKLCI,znb_SET,znb_JCI,znb_PCOMP,znb_KSE100,znb_SENSEX,znb_VNINDEX,znb_CSEALL,znb_SASEIDX,znb_SPTSX,znb_MEXBOL,znb_IBOV,znb_MERVAL,znb_AS51,znb_NZSE50FG,znb_CASE,znb_JALSH
+rt_hkHSSI,hkHSSI_i,rt_hkCSCSHQ
 */
 
 define('SINA_FOREX_PREFIX', 'fx_s');
@@ -70,19 +71,19 @@ function in_arrayOilEtfQdii($strSymbol)
     return in_array($strSymbol, QdiiGetOilEtfSymbolArray());
 }
 
-function QdiiGetCommoditySymbolArray()
+function QdiiGetQqqMatchArray()
 {
-    return array('SZ161815'); 
+    return array('SH513100', 'SH513110', 'SH513390', 'SH513870', 'SZ159501', 'SZ159513', 'SZ159632', 'SZ159659', 'SZ159660', 'SZ159696', 'SZ159941', 'SZ161130'); 
 }
 
-function in_arrayCommodityQdii($strSymbol)
+function in_arrayQqqMatch($strSymbol)
 {
-    return in_array($strSymbol, QdiiGetCommoditySymbolArray());
+    return in_array($strSymbol, QdiiGetQqqMatchArray());
 }
 
 function QdiiGetQqqSymbolArray()
 {
-    return array('SH513100', 'SH513110', 'SH513300', 'SH513390', 'SH513870', 'SZ159501', 'SZ159513', 'SZ159632', 'SZ159659', 'SZ159660', 'SZ159696', 'SZ159941', 'SZ161130'); 
+    return array_merge(QdiiGetQqqMatchArray(), array('SH513300'));
 }
 
 function in_arrayQqqQdii($strSymbol)
@@ -90,9 +91,19 @@ function in_arrayQqqQdii($strSymbol)
     return in_array($strSymbol, QdiiGetQqqSymbolArray());
 }
 
+function QdiiGetSpyMatchArray()
+{
+    return array('SH513500', 'SH513650', 'SZ159612', 'SZ161125'); 
+}
+
+function in_arraySpyMatch($strSymbol)
+{
+    return in_array($strSymbol, QdiiGetSpyMatchArray());
+}
+
 function QdiiGetSpySymbolArray()
 {
-    return array('SH513500', 'SH513650', 'SZ159612', 'SZ159655', 'SZ161125'); 
+    return array_merge(QdiiGetSpyMatchArray(), array('SZ159655'));
 }
 
 function in_arraySpyQdii($strSymbol)
@@ -126,10 +137,8 @@ function QdiiGetSymbolArray()
     				   , QdiiGetXbiSymbolArray()
     				   , QdiiGetXopSymbolArray()
     				   , QdiiGetOilEtfSymbolArray()
-    				   , QdiiGetCommoditySymbolArray()
     				   , QdiiGetQqqSymbolArray()
     				   , QdiiGetSpySymbolArray());
-//    sort($ar);
     return $ar;
 }
 
@@ -256,7 +265,7 @@ function in_arrayHkMix($strSymbol)
 
 function GetQdiiGoldSymbolArray()
 {
-	return array('SZ160719', 'SZ161116', 'SZ164701', 'SZ165513');
+	return array('SZ160216', 'SZ161815', 'SZ160719', 'SZ161116', 'SZ164701', 'SZ165513');
 }
 
 function GetQdiiOilSymbolArray()
@@ -264,18 +273,20 @@ function GetQdiiOilSymbolArray()
 	return array('SH501018', 'SZ160723', 'SZ161129');
 }
 
-/*
-function in_arrayOilQdii($strSymbol)
+function GetQdiiGoldOilSymbolArray()
 {
-    return in_array($strSymbol, GetQdiiOilSymbolArray());
+    return array_merge(GetQdiiOilSymbolArray(), GetQdiiGoldSymbolArray());
 }
-*/
+
+function in_arrayQdiiGoldOil($strSymbol)
+{
+    return in_array($strSymbol, GetQdiiGoldOilSymbolArray());
+}
 
 function QdiiMixGetSymbolArray()
 {
-    $ar = array_merge(array('SH501225', 'SH501312', 'SH513360', 'SZ159509', 'SZ159529', 'SZ160216', 'SZ160644') 
-    				   , GetQdiiGoldSymbolArray()
-    				   , GetQdiiOilSymbolArray()
+    $ar = array_merge(array('SH501225', 'SH501312', 'SH513360', 'SZ159509', 'SZ159529', 'SZ160644') 
+    				   , GetQdiiGoldOilSymbolArray()
     				   , GetChinaInternetSymbolArray()
     				   , GetHkMixSymbolArray()
     				   , GetMsciUs50SymbolArray());
@@ -307,7 +318,11 @@ function in_arrayAll($strSymbol)
 
 function GetOverNightSymbolArray()
 {
-	return array_merge(QdiiGetXopSymbolArray(), GetQdiiGoldSymbolArray(), GetQdiiOilSymbolArray(), array('SZ161125', 'SZ161127', 'SZ161130', 'SZ161226', 'SZ162415', 'SZ162719', 'SZ164906'));
+	return array_merge(QdiiGetXopSymbolArray(),
+                       array('SZ162719'),
+                       GetQdiiGoldOilSymbolArray(), 
+                       array('SZ161226', 'SZ161125', 'SZ161126', 'SZ161130', 'SZ162415', 'SZ164906'),
+                       QdiiGetXbiSymbolArray());
 }
 
 function IsChinaStockDigit($strDigit)
@@ -737,6 +752,16 @@ class StockSymbol
     {
     	return StrHasPrefix($this->strSymbol, SINA_CN_FUTURE_PREFIX); 
     }
+
+    function IsSinaFutureExceptGoldCN()
+    {
+        if ($str = $this->IsSinaFutureCN())
+        {
+            if ($str != 'AU0')  return true;
+        }
+        return false;
+    }
+
 
     function IsSinaFutureUS()
     {

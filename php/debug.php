@@ -35,7 +35,7 @@ function mysql_round($str, $iPrecision = FLOAT_PRECISION)
 	return strval_round(floatval($str), $iPrecision);
 }
 
-function strval_round_implode($arVal, $strSeparator = ': ')
+function strval_round_implode($arVal, $strSeparator = ', ')
 {
 	$str = '';
 	foreach ($arVal as $fVal)
@@ -77,6 +77,16 @@ function unlinkEmptyFile($strFileName)
 			file_put_contents($strFileName, '');
 		}
 	}
+}
+
+function DebugEncode($arJson)
+{
+	return substr(json_encode($arJson), 1, -1);
+}
+
+function DebugDecode($strJson)
+{
+	return json_decode('{'.$strJson.'}', true);
 }
 
 function DebugFormat_date($strFormat, $iTime = false, $strTimeZone = DEBUG_TIME_ZONE)
@@ -136,6 +146,11 @@ function DebugGetPathName($strFileName)
 function DebugGetFile()
 {
     return DebugGetPathName('debug.txt');
+}
+
+function DebugGetNetValueFile($strSymbol)
+{
+	return DebugGetPathName('netvalue_'.$strSymbol.'.txt');
 }
 
 function DebugIsPalmmicro()
